@@ -1,0 +1,141 @@
+/* 侧边栏个人信息卡片动态渐变色 */
+#aside-content > .card-widget.card-info {
+    background: linear-gradient(
+      -45deg,
+      #e8d8b9,
+      #eccec5,
+      #a3e9eb,
+      #bdbdf0,
+      #eec1ea
+    );
+    box-shadow: 0 0 5px rgb(66, 68, 68);
+    position: relative;
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite !important;
+  }
+  @-webkit-keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @-moz-keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* 黑夜模式适配 */
+  [data-theme="dark"] #aside-content > .card-widget.card-info {
+    background: #191919ee;
+  }
+  
+  /* 个人信息Follow me按钮 */
+  #aside-content > .card-widget.card-info > #card-info-btn {
+    background-color: #3eb8be;
+    border-radius: 8px;
+  }
+
+
+
+
+
+
+/* 公众号 Start */
+
+[data-theme='light'] #aside-content .card-widget#card-wechat {
+    background: #4093c9 !important;
+}
+
+#aside-content .card-widget#card-wechat {
+    background: var(--card-bg);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+    cursor: pointer !important;
+    border: none;
+    height: 110px;
+}
+
+/* 如果你设置了aside 的 mobile 为 false，记得放开下面这段注释；
+   如果你设置了aside 的 mobile 为 true ，不需要改动。 */
+
+/* @media screen and (max-width: 768px) {
+    #aside-content .card-widget#card-wechat {
+        display: none !important;
+    }
+} */
+
+@media screen and (min-width: 1300px) {
+    #aside-content .card-widget {
+        margin-top: 1rem;
+    }
+}
+
+#flip-wrapper {
+    -webkit-perspective: 1000;
+    perspective: 1000;
+    position: relative;
+    width: 235px;
+    height: 110px;
+    z-index: 1;
+}
+
+#flip-wrapper:hover #flip-content {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+#flip-content {
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: cubic-bezier(0, 0, 0, 1.29) 0.3s;
+}
+
+.face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background: url(https://img.zhheo.com/i/2022/08/31/630efc6e3e794.png) center center no-repeat;
+    background-size: 100%;
+}
+
+.back.face {
+    display: block;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    box-sizing: border-box;
+    background: url(https://bu.dusays.com/2022/10/30/635e9c6a228a3.png) center center no-repeat;
+    background-size: 100%;
+}
+
+/* 公众号 End */
