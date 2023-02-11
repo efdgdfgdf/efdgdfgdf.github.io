@@ -1415,7 +1415,7 @@ h6::before {
   --anzhiyu-pink: #ff7c7c;
   --anzhiyu-green: #57bd6a;
   --anzhiyu-fontcolor: #363636;
-  --anzhiyu-background: #bfe9ff;
+  --anzhiyu-background: #80d3ff;
   --anzhiyu-reverse: #000;
   --anzhiyu-maskbg: rgba(255, 255, 255, 0.6);
   --anzhiyu-maskbgdeep: rgba(255, 255, 255, 0.85);
@@ -1465,6 +1465,9 @@ h6::before {
 }
 
 #web_bg ~ .page:has(.fcircle_page) {
-  background-color: #f7f9fe !important;
+  background: url(https://img1.imgtp.com/2023/02/03/asg1o5dA.png);
+}
+[data-theme="dark"] #web_bg ~ .page:has(.fcircle_page) {
+  background: url(https://img1.imgtp.com/2023/02/03/asg1o5dA.png);
 }
 
