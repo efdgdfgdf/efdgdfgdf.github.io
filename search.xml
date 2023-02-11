@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>个人网站开发</title>
+      <link href="/posts/1231/"/>
+      <url>/posts/1231/</url>
+      
+        <content type="html"><![CDATA[<h2 id="网站开发基础"><a href="#网站开发基础" class="headerlink" title="网站开发基础"></a>网站开发基础</h2><h4 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h4><p>域名、服务器、搭建网站环境。</p><h4 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h4><p>【1】WordPress（开源建站系统）<br>可用于建造个人博客，企业官网，电商平台<br>特点：傻瓜式、多主题、插件丰富。<br><a href="https://cn.wordpress.org/">https://cn.wordpress.org/</a></p><p>【2】docsify（文档站点生成器）<br>特点：使用简单，可装插件、响应式。<br><a href="https://docsify.js.org/#/">https://docsify.js.org/#/</a></p><p>【3】dumi（文档站点生成器）<br>适合项目、产品的官网<br>特点：使用简单，专为组件开发场景而生<br><a href="https://d.umijs.org/">https://d.umijs.org/</a></p><p>【4】imgcook<br>根据设计稿一键智能生成代码<br>特点：傻瓜式操作，随意修改，AI生成代码<br><a href="https://www.imgcook.com/">https://www.imgcook.com/</a></p><p>【5】ant design landing<br>网站首页生成器<br>特点：模板丰富，可视化编辑网页元素，可一键上传网站，不需要购买服务器、域名等。<br><a href="https://ant-design-landing.gitee.io/index-cn">https://ant-design-landing.gitee.io/index-cn</a></p><p>【6】TX兔小巢<br>产品反馈平台<br>特点：免费，一键生成网站反馈社区<br><a href="https://txc.qq.com/">https://txc.qq.com/</a></p><p>【7】百度统计<br>网站数据统计<br>特点：多场景统计分析，简单易用<br><a href="https://tongji.baidu.com/web/welcome/login">https://tongji.baidu.com/web/welcome/login</a></p><p>【8】Discuz Q<br>PC端开源社区软件<br>特点：开源，功能丰富<br><a href="https://discuz.chat/?categoryId=all&sequence=0">https://discuz.chat/?categoryId=all&amp;sequence=0</a></p><p>【9】tailwindcss<br>UI框架，提供现成具体好看的css样式，帮助我们快速构建现代化网站<br><a href="https://www.tailwindcss.cn/">https://www.tailwindcss.cn/</a></p><h2 id="班级网站需求分析"><a href="#班级网站需求分析" class="headerlink" title="班级网站需求分析"></a>班级网站需求分析</h2><p>根据调查，必须让同学们有收获，或者说有正反馈，这是能让同学们关注并使用网站的第一步。</p><ol><li>班级简介</li><li>班级通知、布置作业、课程表</li><li>留言板（提建议）</li><li>班级事迹、文体活动</li><li>思想建设</li><li>新鲜事</li><li>友情链接（学校网站、好用的工具）</li><li>学校风光</li><li>设置一个点歌的小插件，最好能听一些付费的歌曲。</li><li>百度搜索功能</li><li>时间显示功能</li><li>计算综测分</li><li>点名统计</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网站开发 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机专业 </tag>
+            
+            <tag> 网站必备 </tag>
+            
+            <tag> 搭建个人网站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Python基础知识</title>
       <link href="/posts/f1a5/"/>
       <url>/posts/f1a5/</url>
@@ -37,35 +66,6 @@
     
     
     <entry>
-      <title>个人网站开发</title>
-      <link href="/posts/1231/"/>
-      <url>/posts/1231/</url>
-      
-        <content type="html"><![CDATA[<h2 id="网站开发基础"><a href="#网站开发基础" class="headerlink" title="网站开发基础"></a>网站开发基础</h2><h4 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h4><p>域名、服务器、搭建网站环境。</p><h4 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h4><p>【1】WordPress（开源建站系统）<br>可用于建造个人博客，企业官网，电商平台<br>特点：傻瓜式、多主题、插件丰富。<br><a href="https://cn.wordpress.org/">https://cn.wordpress.org/</a></p><p>【2】docsify（文档站点生成器）<br>特点：使用简单，可装插件、响应式。<br><a href="https://docsify.js.org/#/">https://docsify.js.org/#/</a></p><p>【3】dumi（文档站点生成器）<br>适合项目、产品的官网<br>特点：使用简单，专为组件开发场景而生<br><a href="https://d.umijs.org/">https://d.umijs.org/</a></p><p>【4】imgcook<br>根据设计稿一键智能生成代码<br>特点：傻瓜式操作，随意修改，AI生成代码<br><a href="https://www.imgcook.com/">https://www.imgcook.com/</a></p><p>【5】ant design landing<br>网站首页生成器<br>特点：模板丰富，可视化编辑网页元素，可一键上传网站，不需要购买服务器、域名等。<br><a href="https://ant-design-landing.gitee.io/index-cn">https://ant-design-landing.gitee.io/index-cn</a></p><p>【6】TX兔小巢<br>产品反馈平台<br>特点：免费，一键生成网站反馈社区<br><a href="https://txc.qq.com/">https://txc.qq.com/</a></p><p>【7】百度统计<br>网站数据统计<br>特点：多场景统计分析，简单易用<br><a href="https://tongji.baidu.com/web/welcome/login">https://tongji.baidu.com/web/welcome/login</a></p><p>【8】Discuz Q<br>PC端开源社区软件<br>特点：开源，功能丰富<br><a href="https://discuz.chat/?categoryId=all&sequence=0">https://discuz.chat/?categoryId=all&amp;sequence=0</a></p><p>【9】tailwindcss<br>UI框架，提供现成具体好看的css样式，帮助我们快速构建现代化网站<br><a href="https://www.tailwindcss.cn/">https://www.tailwindcss.cn/</a></p><h2 id="班级网站需求分析"><a href="#班级网站需求分析" class="headerlink" title="班级网站需求分析"></a>班级网站需求分析</h2><p>根据调查，必须让同学们有收获，或者说有正反馈，这是能让同学们关注并使用网站的第一步。</p><ol><li>班级简介</li><li>班级通知、布置作业、课程表</li><li>留言板（提建议）</li><li>班级事迹、文体活动</li><li>思想建设</li><li>新鲜事</li><li>友情链接（学校网站、好用的工具）</li><li>学校风光</li><li>设置一个点歌的小插件，最好能听一些付费的歌曲。</li><li>百度搜索功能</li><li>时间显示功能</li><li>计算综测分</li><li>点名统计</li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 网站开发 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 计算机专业 </tag>
-            
-            <tag> 网站必备 </tag>
-            
-            <tag> 搭建个人网站 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>找工作，投简历</title>
       <link href="/posts/1342/"/>
       <url>/posts/1342/</url>
@@ -85,6 +85,33 @@
             <tag> 实习工作 </tag>
             
             <tag> 随笔小记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>系统设计入门</title>
+      <link href="/posts/0000/"/>
+      <url>/posts/0000/</url>
+      
+        <content type="html"><![CDATA[<h2 id="系统设计"><a href="#系统设计" class="headerlink" title="系统设计"></a>系统设计</h2><h3 id="Load-Balancing-负载均衡"><a href="#Load-Balancing-负载均衡" class="headerlink" title="Load Balancing  负载均衡"></a>Load Balancing  负载均衡</h3><p>用来保护Web server，把请求打到应该打到的服务上（现在大厂，网关+RPC）</p><p>当用户登录某一网页时，浏览器通过DNS服务器域名解析后拿到的IP可能是某个Load Balancer的IP地址， 而不是web server的IP地址。用户发送的请求通过Load Balancer 均匀地分发给web server进行处理。</p><p>常见算法：比如round robin（轮询调度）, least connection（最小连接数法）, hashing（哈希散列）等。。。。 </p><p>High Scalability  （高扩展） ：扩容，Load Balancer下添加更多的web server，来服务更多的用户。</p><p>High Availability （高可用）：Load Balancer持续监听每台web server的状态是否OK，确保将用户请求发给状态OK的web server，挂机的web server就拜拜了，保证服务不中断。</p><p>有小伙伴还会问那Load Balancer也挂掉了呢？</p><p>那Load Balancer肯定也有备份的啦，一个 Load balancer 挂掉，或者是 BGP 发布取消，备份的 Load balancer可以马上接管流量，继续进行响应。</p><p><img src="https://img1.imgtp.com/2023/02/03/5mJLtkQD.png"></p><h3 id="Database-Design-数据库设计"><a href="#Database-Design-数据库设计" class="headerlink" title="Database Design  数据库设计"></a>Database Design  数据库设计</h3><p>一个是设计data model数据模型</p><p>另一个是数据库的选型</p><p>ps：两者互相关联，因为数据库选型的一个重要参数就是数据模型</p><p>eg :  YouTube de metadata  –&gt; mysql、pg</p><p>电商3网站的产品目录，什么鬼东西都有 –&gt; NoSQL (Cassandra. HBase. MongoDB</p><p>等)</p><p>关系型数据库误区，说关系型数据库不能Scalability，大规模化存储数据，听着有点怪怪的，我们学习数据库都有接触到分库分表、docker &amp;&amp; K8s承载数据库集群，现在大厂的还有云数据库等等。。。</p><p>up提到YouTube的分布式MySQL方案（Vitess）倒是不错，可以看看。</p><p>关系型数据库都需要 data partitioning（数据分区、分片） 的方案，都需要选择 partitioning key（设计构造好分区键值）</p><h3 id="Caching-存储中间件（Memcache、Redis）"><a href="#Caching-存储中间件（Memcache、Redis）" class="headerlink" title="Caching 存储中间件（Memcache、Redis）"></a>Caching 存储中间件（Memcache、Redis）</h3><p>memcache是一套分布式的高速缓存系统</p><h3 id="CDN（Content-Delivery-Network内容分发网络）"><a href="#CDN（Content-Delivery-Network内容分发网络）" class="headerlink" title="CDN（Content Delivery Network内容分发网络）"></a>CDN（Content Delivery Network内容分发网络）</h3><p><img src="https://img1.imgtp.com/2023/02/03/4VQPAi5E.png" alt="image-20230118184031266"></p><h3 id="Asynchronous-processing-异步处理"><a href="#Asynchronous-processing-异步处理" class="headerlink" title="Asynchronous processing 异步处理"></a>Asynchronous processing 异步处理</h3><p>先来说说同步处理 (synchronous processing)，如果一个任务是同步处理，那调用者必须等到任务结束，才能继续后面的工作。比如，</p><p>如果一个任务是异步执行的，那么任务的调用者，不用等到任务结束。</p><p>常规解决方案：解耦（MQ）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 系统开发 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机专业 </tag>
+            
+            <tag> 系统设计优化 </tag>
             
         </tags>
       
@@ -126,33 +153,6 @@
     </entry>
     
     
-    
-    <entry>
-      <title>系统设计入门</title>
-      <link href="/posts/0000/"/>
-      <url>/posts/0000/</url>
-      
-        <content type="html"><![CDATA[<h2 id="系统设计"><a href="#系统设计" class="headerlink" title="系统设计"></a>系统设计</h2><h3 id="Load-Balancing-负载均衡"><a href="#Load-Balancing-负载均衡" class="headerlink" title="Load Balancing  负载均衡"></a>Load Balancing  负载均衡</h3><p>用来保护Web server，把请求打到应该打到的服务上（现在大厂，网关+RPC）</p><p>当用户登录某一网页时，浏览器通过DNS服务器域名解析后拿到的IP可能是某个Load Balancer的IP地址， 而不是web server的IP地址。用户发送的请求通过Load Balancer 均匀地分发给web server进行处理。</p><p>常见算法：比如round robin（轮询调度）, least connection（最小连接数法）, hashing（哈希散列）等。。。。 </p><p>High Scalability  （高扩展） ：扩容，Load Balancer下添加更多的web server，来服务更多的用户。</p><p>High Availability （高可用）：Load Balancer持续监听每台web server的状态是否OK，确保将用户请求发给状态OK的web server，挂机的web server就拜拜了，保证服务不中断。</p><p>有小伙伴还会问那Load Balancer也挂掉了呢？</p><p>那Load Balancer肯定也有备份的啦，一个 Load balancer 挂掉，或者是 BGP 发布取消，备份的 Load balancer可以马上接管流量，继续进行响应。</p><p><img src="https://img1.imgtp.com/2023/02/03/5mJLtkQD.png"></p><h3 id="Database-Design-数据库设计"><a href="#Database-Design-数据库设计" class="headerlink" title="Database Design  数据库设计"></a>Database Design  数据库设计</h3><p>一个是设计data model数据模型</p><p>另一个是数据库的选型</p><p>ps：两者互相关联，因为数据库选型的一个重要参数就是数据模型</p><p>eg :  YouTube de metadata  –&gt; mysql、pg</p><p>电商3网站的产品目录，什么鬼东西都有 –&gt; NoSQL (Cassandra. HBase. MongoDB</p><p>等)</p><p>关系型数据库误区，说关系型数据库不能Scalability，大规模化存储数据，听着有点怪怪的，我们学习数据库都有接触到分库分表、docker &amp;&amp; K8s承载数据库集群，现在大厂的还有云数据库等等。。。</p><p>up提到YouTube的分布式MySQL方案（Vitess）倒是不错，可以看看。</p><p>关系型数据库都需要 data partitioning（数据分区、分片） 的方案，都需要选择 partitioning key（设计构造好分区键值）</p><h3 id="Caching-存储中间件（Memcache、Redis）"><a href="#Caching-存储中间件（Memcache、Redis）" class="headerlink" title="Caching 存储中间件（Memcache、Redis）"></a>Caching 存储中间件（Memcache、Redis）</h3><p>memcache是一套分布式的高速缓存系统</p><h3 id="CDN（Content-Delivery-Network内容分发网络）"><a href="#CDN（Content-Delivery-Network内容分发网络）" class="headerlink" title="CDN（Content Delivery Network内容分发网络）"></a>CDN（Content Delivery Network内容分发网络）</h3><p><img src="https://img1.imgtp.com/2023/02/03/4VQPAi5E.png" alt="image-20230118184031266"></p><h3 id="Asynchronous-processing-异步处理"><a href="#Asynchronous-processing-异步处理" class="headerlink" title="Asynchronous processing 异步处理"></a>Asynchronous processing 异步处理</h3><p>先来说说同步处理 (synchronous processing)，如果一个任务是同步处理，那调用者必须等到任务结束，才能继续后面的工作。比如，</p><p>如果一个任务是异步执行的，那么任务的调用者，不用等到任务结束。</p><p>常规解决方案：解耦（MQ）</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 系统开发 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 计算机专业 </tag>
-            
-            <tag> 系统设计优化 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
   
   
     
@@ -169,9 +169,20 @@
     
     
     <entry>
-      <title></title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>便携小空调 - 为你的夏日带去清凉!</title>
+      <link href="/air-conditioner/index.html"/>
+      <url>/air-conditioner/index.html</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>终于为博客安装上了便携小空调</p></blockquote><style>.copyright-box a {  border-bottom: none !important;  padding: 0 !important;}</style><div id="air-conditioner-vue"></div><script defer data-pjax src='https://pan.anzhiy.cn/d/anzhiyu/air-conditioner-dev/index.2d8c3a3f.js'></script>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>书单</title>
+      <link href="/books/index.html"/>
+      <url>/books/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -192,17 +203,6 @@
     
     <entry>
       <title></title>
-      <link href="/css/universe.css"/>
-      <url>/css/universe.css</url>
-      
-        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;  }]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/css/kslink.css"/>
       <url>/css/kslink.css</url>
       
@@ -213,22 +213,22 @@
     
     
     <entry>
-      <title>便携小空调 - 为你的夏日带去清凉!</title>
-      <link href="/air-conditioner/index.html"/>
-      <url>/air-conditioner/index.html</url>
+      <title></title>
+      <link href="/css/universe.css"/>
+      <url>/css/universe.css</url>
       
-        <content type="html"><![CDATA[<blockquote><p>终于为博客安装上了便携小空调</p></blockquote><style>.copyright-box a {  border-bottom: none !important;  padding: 0 !important;}</style><div id="air-conditioner-vue"></div><script defer data-pjax src='https://pan.anzhiy.cn/d/anzhiyu/air-conditioner-dev/index.2d8c3a3f.js'></script>]]></content>
+        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;  }]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>eomusic</title>
+      <link href="/eomusic/index.html"/>
+      <url>/eomusic/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<div id="eoMusic-page">    <div class="aplayer aplayer-withlrc aplayer-withlist" id="eo-music" data-id="7998156690" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false">    </div></div>]]></content>
       
     </entry>
     
@@ -246,9 +246,9 @@
     
     
     <entry>
-      <title>游戏</title>
-      <link href="/games/index.html"/>
-      <url>/games/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -268,11 +268,11 @@
     
     
     <entry>
-      <title>eomusic</title>
-      <link href="/eomusic/index.html"/>
-      <url>/eomusic/index.html</url>
+      <title></title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[<div id="eoMusic-page">    <div class="aplayer aplayer-withlrc aplayer-withlist" id="eo-music" data-id="7998156690" data-server="netease" data-type="playlist" data-fixed="false" data-autoplay="false">    </div></div>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -284,6 +284,17 @@
       <url>/js/bber.js</url>
       
         <content type="html"><![CDATA[var pathName = window.document.location.pathnameif (pathName === '/') {  $(document).ready(function(){      if ( $("#bber-talk").length > 0 ) {        var jsonUrl = ''        jsonUrl = "https://626c-blogpkly-13278c-1258453354.tcb.qcloud.la/json/bber.json"        $.getJSON(jsonUrl+"?t="+Date.parse( new Date()),function(res){          var bberHtml = ''          $.each(res.data, function(i, item){            var d = new Date(item.date)            var date = d.getFullYear()+'/'+(d.getMonth()+1)+'/'+d.getDate() +' '+d.getHours()+':'+d.getMinutes()+':'+d.getSeconds()            var dataTime = timeago.format(date, 'zh_CN');            var newdataTime = '<span class="datatime">'+dataTime+'</span>'            bberHtml += '<li class="item item-'+(i+1)+'">'+'<a href="https://guole.fun/bb/" style="color: var(--font-color);/*font-weight: normal;*/">'+newdataTime+'： '+urlToLink(item.content)+'</a></li>'          });          $('#bber-talk').append('<span class="index-talk-icon" style="margin-right: 5px"><svg viewBox="0 0 550 550" width="15" height="15"><path d="M448 0H64C28.7 0 0 28.7 0 64v288c0 35.3 28.7 64 64 64h96v84c0 7.1 5.8 12 12 12 2.4 0 4.9-.7 7.1-2.4L304 416h144c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64zm16 352c0 8.8-7.2 16-16 16H288l-12.8 9.6L208 428v-60H64c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16h384c8.8 0 16 7.2 16 16v288z"></path></svg></span><ul class="talk-list">'+bberHtml+'</ul>')        });        function urlToLink(str) {          var img_tag = /(<br>)|([[\s\S]*])|(\()|(\))/g;          var re_forimg =/\<[img|IMG].*?src=[\'|\"](https\:\/\/.*?(?:[\.jpg|\.jpeg|\.png|\.gif|\.bmp]))[\'|\"].*?[\/]?>/g;          var music = /(y.qq.com)|(music.163.com)/g;          var music_url = /[a-zA-z]+:\/\/[^\s]*/g;            if (music.test(str)) {              str =str.replace(music_url,function () {                return '<svg viewBox="0 0 1024 1024" width="18" height="18"><path d="M960 0H1024v736c0 88.3712-100.283733 160-224 160S576 824.3712 576 736s100.283733-160 224-160c62.685867 0 119.3472 18.397867 160 48.042667V256l-512 113.783467v494.216533c0 88.3712-100.283733 160-224 160S0 952.3712 0 864s100.283733-160 224-160c62.685867 0 119.3472 18.397867 160 48.042667V128L960 0z"></path></svg>音乐分享';              });            } else {}          str =str.replace(re_forimg,'$1');          var re_formd = /^!\[(.*)\]\((.*)\)/g;          str = str.replace(re_formd,'$2');          str = str.replace(img_tag,"");          var re =/\bhttps?:\/\/(?!\S+(?:jpe?g|png|bmp|gif|webp|gif))\S+/g;          var re_forpic =/\bhttps?:\/\/.*?(\.gif|\.jpe?g|\.png|\.bmp|\.webp)/g;          str =str.replace(re,function (website) {            return '<svg viewBox="0 0 1025 1024" width="21" height="21"><path d="M333.06186 733.061768c-58.347896 52.210106-97.040127 49.051159-136.467091 9.492188l-45.156456-48.462758c-39.427988-39.541575-39.427988-103.667058 0-143.226029l193.260585-193.848986c39.426965-39.558971 103.355973-39.558971 142.78396 0l35.679617 35.794228c30.457686 30.555923 37.398772 75.762521 20.801768 112.997564l86.286202 66.040089c59.149145-59.33027 59.149145-155.517983 0-214.830857L523.162476 249.600755c-59.133795-59.33027-155.010423-59.33027-214.160591 0L44.350342 515.071965c-59.133795 59.313897-59.133795 155.50161 0 214.830857l107.08797 107.415428c59.133795 59.313897 155.026796 59.313897 214.176964 0l102.161774-105.647155-72.980151-70.034053L333.06186 733.061768zM987.196021 285.394982 880.1234 177.979554c-59.149145-59.33027-155.026796-59.33027-214.176964 0 0 0 4.223185-1.064238-57.988716 61.343113l71.113641 68.167542 31.604812-34.877345c39.427988-39.541575 103.356996-39.541575 142.78396 0l35.69599 35.8106c39.427988 39.541575 39.427988 103.667058 0 143.226029L714.818517 632.847345c-39.427988 39.541575-103.340623 39.541575-142.768611 0l-29.395494-48.462758c-61.883419-46.25344-42.865273-57.317427-37.611619-88.544639L426.548044 418.130076c-59.150168 59.33027-59.150168 155.517983 0 214.830857l107.072621 107.432825c59.149145 59.312874 155.026796 59.312874 214.176964 0l239.398392-240.166895C1071.582967 402.924769 987.196021 285.394982 987.196021 285.394982z"></path></svg>';          });          str =str.replace(re_forpic,function (imgurl) {            return '<svg viewBox="0 0 1024 1024" width="21" height="21"><path d="M821.6 120.93333333H195.4c-74.1 0-134.2 60.1-134.2 134.2v492c0 74.1 60.1 134.2 134.2 134.2h626.2c74.1 0 134.2-60.1 134.2-134.2v-492c0-74.1-60.1-134.2-134.2-134.2zM251.3 255.13333333c30.9 0 55.9 25 55.9 55.9s-25 55.9-55.9 55.9-55.9-25-55.9-55.9 25-55.9 55.9-55.9z m614.6 559.1H153.3c-37.3 0-58.2-43.1-35.1-72.4L302.1 508.33333333c17.9-22.7 52.4-22.7 70.3 0l76.5 97.2 148.6-260c17.2-30.1 60.5-30.1 77.7 0L904.8 747.33333333c17 29.8-4.5 66.9-38.9 66.9z"></path></svg>';          });          return str;        }        function Roll (){          var list_li = $('.talk-list li'),cur_li = list_li.first(),last_li = list_li.last();          last_li.after(cur_li);        };        setInterval(Roll,3000);      }    });} else {}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/custom.js"/>
+      <url>/js/custom.js</url>
+      
+        <content type="html"><![CDATA[// 防抖全局计时器let TT = null;    //time用来控制事件的触发// 防抖函数:fn->逻辑 time->防抖时间function debounce(fn, time) {    if (TT !== null) clearTimeout(TT);    TT = setTimeout(fn, time);}// 复制提醒document.addEventListener("copy", function () {    debounce(function () {        new Vue({            data: function () {                this.$notify({                    title: "芜湖！复制成功💡",                    message: "快点去实践吧！如需转载请注明出处哈",                    position: 'top-left',                    offset: 50,                    showClose: true,                    type: "success",                    duration: 5000                });            }        })    }, 300);    })// F12按键document.onkeydown = function () {  // f12  if (window.event && window.event.keyCode == 123) {    debounce(function () {        new Vue({          data: function () {              this.$notify({                  title: "你小子，被发现了吧😜",                  message: "小伙子，扒源记住要遵循GPL协议！",                  position: 'top-left',                  offset: 50,                  showClose: true,                  type: "warning",                  duration: 5000              });          }      })    }, 300);  }}// 设置文章统计 适配明暗模式function switchPostChart () {    // 这里为了统一颜色选取的是“明暗模式”下的两种字体颜色，也可以自己定义    let color = document.documentElement.getAttribute('data-theme') === 'light' ? '#4C4948' : 'rgba(255,255,255,0.7)'    if (document.getElementById('posts-chart') && postsOption) {      try {        let postsOptionNew = postsOption        postsOptionNew.title.textStyle.color = color        postsOptionNew.xAxis.nameTextStyle.color = color        postsOptionNew.yAxis.nameTextStyle.color = color        postsOptionNew.xAxis.axisLabel.color = color        postsOptionNew.yAxis.axisLabel.color = color        postsOptionNew.xAxis.axisLine.lineStyle.color = color        postsOptionNew.yAxis.axisLine.lineStyle.color = color        postsOptionNew.series[0].markLine.data[0].label.color = color        postsChart.setOption(postsOptionNew)      } catch (error) {        console.log(error)      }    }    if (document.getElementById('tags-chart') && tagsOption) {      try {        let tagsOptionNew = tagsOption        tagsOptionNew.title.textStyle.color = color        tagsOptionNew.xAxis.nameTextStyle.color = color        tagsOptionNew.yAxis.nameTextStyle.color = color        tagsOptionNew.xAxis.axisLabel.color = color        tagsOptionNew.yAxis.axisLabel.color = color        tagsOptionNew.xAxis.axisLine.lineStyle.color = color        tagsOptionNew.yAxis.axisLine.lineStyle.color = color        tagsOptionNew.series[0].markLine.data[0].label.color = color        tagsChart.setOption(tagsOptionNew)      } catch (error) {        console.log(error)      }    }    if (document.getElementById('categories-chart') && categoriesOption) {      try {        let categoriesOptionNew = categoriesOption        categoriesOptionNew.title.textStyle.color = color        categoriesOptionNew.legend.textStyle.color = color        if (!categoryParentFlag) { categoriesOptionNew.series[0].label.color = color }        categoriesChart.setOption(categoriesOptionNew)      } catch (error) {        console.log(error)      }    }  }  document.getElementById("mode-button").addEventListener("click", function () { setTimeout(switchPostChart, 100) })// 即刻短文var percentFlag = false; // 节流阀function essayScroll() {  let a = document.documentElement.scrollTop || window.pageYOffset; // 卷去高度  const waterfallResult = a % document.documentElement.clientHeight; // 卷去一个视口  result <= 99 || (result = 99);  if (    !percentFlag &&    waterfallResult + 100 >= document.documentElement.clientHeight &&    document.querySelector("#waterfall")  ) {    // console.info(waterfallResult, document.documentElement.clientHeight);    setTimeout(() => {      waterfall("#waterfall");    }, 500);  } else {    setTimeout(() => {      document.querySelector("#waterfall") && waterfall("#waterfall");    }, 500);  }  const r = window.scrollY + document.documentElement.clientHeight;  let p = document.getElementById("post-comment") || document.getElementById("footer");  (p.offsetTop + p.offsetHeight / 2 < r || 90 < result) && (percentFlag = true);}function replaceAll(e, n, t) {  return e.split(n).join(t);}var anzhiyu = {  diffDate: function (d, more = false) {    const dateNow = new Date();    const datePost = new Date(d);    const dateDiff = dateNow.getTime() - datePost.getTime();    const minute = 1000 * 60;    const hour = minute * 60;    const day = hour * 24;    const month = day * 30;    let result;    if (more) {      const monthCount = dateDiff / month;      const dayCount = dateDiff / day;      const hourCount = dateDiff / hour;      const minuteCount = dateDiff / minute;      if (monthCount >= 1) {        result = datePost.toLocaleDateString().replace(/\//g, "-");      } else if (dayCount >= 1) {        result = parseInt(dayCount) + " " + GLOBAL_CONFIG.date_suffix.day;      } else if (hourCount >= 1) {        result = parseInt(hourCount) + " " + GLOBAL_CONFIG.date_suffix.hour;      } else if (minuteCount >= 1) {        result = parseInt(minuteCount) + " " + GLOBAL_CONFIG.date_suffix.min;      } else {        result = GLOBAL_CONFIG.date_suffix.just;      }    } else {      result = parseInt(dateDiff / day);    }    return result;  },  changeTimeInEssay: function () {    document.querySelector("#bber") &&      document.querySelectorAll("#bber time").forEach(function (e) {        var t = e,          datetime = t.getAttribute("datetime");        (t.innerText = anzhiyu.diffDate(datetime, true)), (t.style.display = "inline");      });  },  reflashEssayWaterFall: function () {    document.querySelector("#waterfall") &&      setTimeout(function () {        waterfall("#waterfall");        document.getElementById("waterfall").classList.add("show");      }, 500);  },  commentText: function (e) {    if (e == "undefined" || e == "null") e = "好棒！";    var n = document.getElementsByClassName("el-textarea__inner")[0],      t = document.createEvent("HTMLEvents");    if (!n) return;    t.initEvent("input", !0, !0);    var o = replaceAll(e, "\n", "\n> ");    (n.value = "> " + o + "\n\n"), n.dispatchEvent(t);    var i = document.querySelector("#post-comment").offsetTop;    window.scrollTo(0, i - 80),      n.focus(),      n.setSelectionRange(-1, -1),      document.getElementById("comment-tips") && document.getElementById("comment-tips").classList.add("show");  },};anzhiyu.changeTimeInEssay();anzhiyu.reflashEssayWaterFall();]]></content>
       
     </entry>
     
@@ -313,17 +324,6 @@
     
     <entry>
       <title></title>
-      <link href="/js/custom.js"/>
-      <url>/js/custom.js</url>
-      
-        <content type="html"><![CDATA[// 防抖全局计时器let TT = null;    //time用来控制事件的触发// 防抖函数:fn->逻辑 time->防抖时间function debounce(fn, time) {    if (TT !== null) clearTimeout(TT);    TT = setTimeout(fn, time);}// 复制提醒document.addEventListener("copy", function () {    debounce(function () {        new Vue({            data: function () {                this.$notify({                    title: "芜湖！复制成功💡",                    message: "快点去实践吧！如需转载请注明出处哈",                    position: 'top-left',                    offset: 50,                    showClose: true,                    type: "success",                    duration: 5000                });            }        })    }, 300);    })// F12按键document.onkeydown = function () {  // f12  if (window.event && window.event.keyCode == 123) {    debounce(function () {        new Vue({          data: function () {              this.$notify({                  title: "你小子，被发现了吧😜",                  message: "小伙子，扒源记住要遵循GPL协议！",                  position: 'top-left',                  offset: 50,                  showClose: true,                  type: "warning",                  duration: 5000              });          }      })    }, 300);  }}// 设置文章统计 适配明暗模式function switchPostChart () {    // 这里为了统一颜色选取的是“明暗模式”下的两种字体颜色，也可以自己定义    let color = document.documentElement.getAttribute('data-theme') === 'light' ? '#4C4948' : 'rgba(255,255,255,0.7)'    if (document.getElementById('posts-chart') && postsOption) {      try {        let postsOptionNew = postsOption        postsOptionNew.title.textStyle.color = color        postsOptionNew.xAxis.nameTextStyle.color = color        postsOptionNew.yAxis.nameTextStyle.color = color        postsOptionNew.xAxis.axisLabel.color = color        postsOptionNew.yAxis.axisLabel.color = color        postsOptionNew.xAxis.axisLine.lineStyle.color = color        postsOptionNew.yAxis.axisLine.lineStyle.color = color        postsOptionNew.series[0].markLine.data[0].label.color = color        postsChart.setOption(postsOptionNew)      } catch (error) {        console.log(error)      }    }    if (document.getElementById('tags-chart') && tagsOption) {      try {        let tagsOptionNew = tagsOption        tagsOptionNew.title.textStyle.color = color        tagsOptionNew.xAxis.nameTextStyle.color = color        tagsOptionNew.yAxis.nameTextStyle.color = color        tagsOptionNew.xAxis.axisLabel.color = color        tagsOptionNew.yAxis.axisLabel.color = color        tagsOptionNew.xAxis.axisLine.lineStyle.color = color        tagsOptionNew.yAxis.axisLine.lineStyle.color = color        tagsOptionNew.series[0].markLine.data[0].label.color = color        tagsChart.setOption(tagsOptionNew)      } catch (error) {        console.log(error)      }    }    if (document.getElementById('categories-chart') && categoriesOption) {      try {        let categoriesOptionNew = categoriesOption        categoriesOptionNew.title.textStyle.color = color        categoriesOptionNew.legend.textStyle.color = color        if (!categoryParentFlag) { categoriesOptionNew.series[0].label.color = color }        categoriesChart.setOption(categoriesOptionNew)      } catch (error) {        console.log(error)      }    }  }  document.getElementById("mode-button").addEventListener("click", function () { setTimeout(switchPostChart, 100) })// 即刻短文var percentFlag = false; // 节流阀function essayScroll() {  let a = document.documentElement.scrollTop || window.pageYOffset; // 卷去高度  const waterfallResult = a % document.documentElement.clientHeight; // 卷去一个视口  result <= 99 || (result = 99);  if (    !percentFlag &&    waterfallResult + 100 >= document.documentElement.clientHeight &&    document.querySelector("#waterfall")  ) {    // console.info(waterfallResult, document.documentElement.clientHeight);    setTimeout(() => {      waterfall("#waterfall");    }, 500);  } else {    setTimeout(() => {      document.querySelector("#waterfall") && waterfall("#waterfall");    }, 500);  }  const r = window.scrollY + document.documentElement.clientHeight;  let p = document.getElementById("post-comment") || document.getElementById("footer");  (p.offsetTop + p.offsetHeight / 2 < r || 90 < result) && (percentFlag = true);}function replaceAll(e, n, t) {  return e.split(n).join(t);}var anzhiyu = {  diffDate: function (d, more = false) {    const dateNow = new Date();    const datePost = new Date(d);    const dateDiff = dateNow.getTime() - datePost.getTime();    const minute = 1000 * 60;    const hour = minute * 60;    const day = hour * 24;    const month = day * 30;    let result;    if (more) {      const monthCount = dateDiff / month;      const dayCount = dateDiff / day;      const hourCount = dateDiff / hour;      const minuteCount = dateDiff / minute;      if (monthCount >= 1) {        result = datePost.toLocaleDateString().replace(/\//g, "-");      } else if (dayCount >= 1) {        result = parseInt(dayCount) + " " + GLOBAL_CONFIG.date_suffix.day;      } else if (hourCount >= 1) {        result = parseInt(hourCount) + " " + GLOBAL_CONFIG.date_suffix.hour;      } else if (minuteCount >= 1) {        result = parseInt(minuteCount) + " " + GLOBAL_CONFIG.date_suffix.min;      } else {        result = GLOBAL_CONFIG.date_suffix.just;      }    } else {      result = parseInt(dateDiff / day);    }    return result;  },  changeTimeInEssay: function () {    document.querySelector("#bber") &&      document.querySelectorAll("#bber time").forEach(function (e) {        var t = e,          datetime = t.getAttribute("datetime");        (t.innerText = anzhiyu.diffDate(datetime, true)), (t.style.display = "inline");      });  },  reflashEssayWaterFall: function () {    document.querySelector("#waterfall") &&      setTimeout(function () {        waterfall("#waterfall");        document.getElementById("waterfall").classList.add("show");      }, 500);  },  commentText: function (e) {    if (e == "undefined" || e == "null") e = "好棒！";    var n = document.getElementsByClassName("el-textarea__inner")[0],      t = document.createEvent("HTMLEvents");    if (!n) return;    t.initEvent("input", !0, !0);    var o = replaceAll(e, "\n", "\n> ");    (n.value = "> " + o + "\n\n"), n.dispatchEvent(t);    var i = document.querySelector("#post-comment").offsetTop;    window.scrollTo(0, i - 80),      n.focus(),      n.setSelectionRange(-1, -1),      document.getElementById("comment-tips") && document.getElementById("comment-tips").classList.add("show");  },};anzhiyu.changeTimeInEssay();anzhiyu.reflashEssayWaterFall();]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/cursor.js"/>
       <url>/js/cursor.js</url>
       
@@ -339,17 +339,6 @@
       <url>/js/day.js</url>
       
         <content type="html"><![CDATA[var d = new Date();m = d.getMonth() + 1;dd = d.getDate();y = d.getFullYear();// 公祭日if (m == 9 && dd == 18) {    document.getElementsByTagName("html")[0].setAttribute("style", "filter: grayscale(60%);");    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("今天是九一八事变" + (y - 1931).toString() + "周年纪念日\n🪔勿忘国耻，振兴中华🪔");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 7 && dd == 7) {    document.getElementsByTagName("html")[0].setAttribute("style", "filter: grayscale(60%);");    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("今天是卢沟桥事变" + (y - 1937).toString() + "周年纪念日\n🪔勿忘国耻，振兴中华🪔");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 12 && dd == 13) {    document.getElementsByTagName("html")[0].setAttribute("style", "filter: grayscale(60%);");    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("今天是南京大屠杀" + (y - 1937).toString() + "周年纪念日\n🪔勿忘国耻，振兴中华🪔");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 8 && dd == 14) {    document.getElementsByTagName("html")[0].setAttribute("style", "filter: grayscale(60%);");    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("今天是世界慰安妇纪念日\n🪔勿忘国耻，振兴中华🪔");        sessionStorage.setItem("isPopupWindow", "1");    }}// 节假日if (m == 10 && dd <= 3) {//国庆节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("祝祖国" + (y - 1949).toString() + "岁生日快乐！");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 8 && dd == 15) {//搞来玩的，小日子投降    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("小日子已经投降" + (y - 1945).toString() + "年了😃");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 1 && dd == 1) {//元旦节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire(y.toString() + "年元旦快乐！🎉");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 3 && dd == 8) {//妇女节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("各位女神们，妇女节快乐！👩");        sessionStorage.setItem("isPopupWindow", "1");    }}l = ["非常抱歉，因为不可控原因，博客将于明天停止运营！", "好消息，日本没了！", "美国垮了，原因竟然是川普！", "微软垮了！", "你的电脑已经过载，建议立即关机！", "你知道吗？站长很喜欢你哦！", "一分钟有61秒哦", "你喜欢的人跟别人跑了！"]if (m == 4 && dd == 1) {//愚人节，随机谎话    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire(l[Math.floor(Math.random() * l.length)]);        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 5 && dd == 1) {//劳动节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("劳动节快乐\n为各行各业辛勤工作的人们致敬！");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 5 && dd == 4) {//青年节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("青年节快乐\n青春不是回忆逝去,而是把握现在！");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 5 && dd == 20) {//520    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("今年是520情人节\n快和你喜欢的人一起过吧！💑");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 7 && dd == 1) {//建党节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("祝中国共产党" + (y - 1921).toString() + "岁生日快乐！");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 9 && dd == 10) {//教师节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("各位老师们教师节快乐！👩‍🏫");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 12 && dd == 25) {//圣诞节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("圣诞节快乐！🎄");        sessionStorage.setItem("isPopupWindow", "1");    }}//传统节日部分if ((y == 2023 && m == 4 && dd == 5) || (y == 2024 && m == 4 && dd == 4) || (y == 2025 && m == 4 && dd == 4)) {//清明节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("清明时节雨纷纷,一束鲜花祭故人💐");        sessionStorage.setItem("isPopupWindow", "1");    }}if ((y == 2023 && m == 12 && dd == 22) || (y == 2024 && m == 12 && dd == 21) || (y == 2025 && m == 12 && dd == 21)) {//冬至    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("冬至快乐\n快吃上一碗热热的汤圆和饺子吧🧆");        sessionStorage.setItem("isPopupWindow", "1");    }}var lunar = calendarFormatter.solar2lunar();//农历采用汉字计算，防止出现闰月导致问题if ((lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初六") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初五") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初四") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初三") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初二") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初一") || (lunar["IMonthCn"] == "腊月" && lunar["IDayCn"] == "三十") || (lunar["IMonthCn"] == "腊月" && lunar["IDayCn"] == "廿九")) {    //春节，本来只有大年三十到初六，但是有时候除夕是大年二十九，所以也加上了    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire(y.toString() + "年新年快乐\n🎊祝你心想事成，诸事顺利🎊");        sessionStorage.setItem("isPopupWindow", "1");    }}if ((lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "十五")) {    //元宵节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("元宵节快乐\n送你一个大大的灯笼🧅");        sessionStorage.setItem("isPopupWindow", "1");    }}if ((lunar["IMonthCn"] == "五月" && lunar["IDayCn"] == "初五")) {    //端午节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("端午节快乐\n请你吃一条粽子🍙");        sessionStorage.setItem("isPopupWindow", "1");    }}if ((lunar["IMonthCn"] == "七月" && lunar["IDayCn"] == "初七")) {    //七夕节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("七夕节快乐\n黄昏后,柳梢头,牛郎织女来碰头");        sessionStorage.setItem("isPopupWindow", "1");    }}if ((lunar["IMonthCn"] == "八月" && lunar["IDayCn"] == "十五")) {    //中秋节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("中秋节快乐\n请你吃一块月饼🍪");        sessionStorage.setItem("isPopupWindow", "1");    }}if ((lunar["IMonthCn"] == "九月" && lunar["IDayCn"] == "初九")) {    //重阳节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("重阳节快乐\n独在异乡为异客，每逢佳节倍思亲");        sessionStorage.setItem("isPopupWindow", "1");    }}// 切换主题提醒// if (y == 2022 && m == 12 && (dd >= 18 && dd <= 20)) {//     if (sessionStorage.getItem("isPopupWindow") != "1") {//         Swal.fire("网站换成冬日限定主题啦⛄");//         sessionStorage.setItem("isPopupWindow", "1");//     }// }]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>书单</title>
-      <link href="/books/index.html"/>
-      <url>/books/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -379,10 +368,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/kslink.js"/>
-      <url>/js/kslink.js</url>
+      <link href="/js/music.js"/>
+      <url>/js/music.js</url>
       
-        <content type="html"><![CDATA[var leonus = {    linkCom: e => {        var t = document.querySelector(".el-textarea__inner");        "bf" == e ? (t.value = "```yml\n", t.value += "- name: \n  link: \n  avatar: \n  descr: \n  siteshot: ", t.value += "\n```", t.setSelectionRange(15, 15)) : (t.value = "站点名称：\n站点地址：\n头像链接：\n站点描述：\n站点截图：", t.setSelectionRange(5, 5)), t.focus()    },    owoBig: () => {        if (!document.getElementById("post-comment") || document.body.clientWidth < 768) return;        let e = 1,            t = "",            o = document.createElement("div"),            n = document.querySelector("body");        o.id = "owo-big", n.appendChild(o), new MutationObserver((l => {            for (let a = 0; a < l.length; a++) {                let i = l[a].addedNodes,                    s = "";                if (2 == i.length && "OwO-body" == i[1].className) s = i[1];                else {                    if (1 != i.length || "tk-comment" != i[0].className) continue;                    s = i[0]                }                s.onmouseover = l => {                    e && ("OwO-body" == s.className && "IMG" == l.target.tagName || "tk-owo-emotion" == l.target.className) && (e = 0, t = setTimeout((() => {                        let e = 3 * l.path[0].clientHeight,                            t = 3 * l.path[0].clientWidth,                            a = l.x - l.offsetX - (t - l.path[0].clientWidth) / 2,                            i = l.y - l.offsetY;                        a + t > n.clientWidth && (a -= a + t - n.clientWidth + 10), a < 0 && (a = 10), o.style.cssText = `display:flex; height:${e}px; width:${t}px; left:${a}px; top:${i}px;`, o.innerHTML = `<img src="${l.target.src}">`                    }), 300))                }, s.onmouseout = () => {                    o.style.display = "none", e = 1, clearTimeout(t)                }            }        })).observe(document.getElementById("post-comment"), {            subtree: !0,            childList: !0        })    },};]]></content>
+        <content type="html"><![CDATA[var urlinfo = window.location.pathname;var overtime;qq_musicpage();function qq_musicpage() {  if (urlinfo != '/music/') {    document.querySelector("#web_bg").classList.remove("bgCls");    document.getElementById('web_bg').style.backgroundImage = 'none';    document.getElementById('footer').style.display = 'flex';    document.getElementsByClassName('pace-running')[0].style.background = 'var(--global-bg)';    document.getElementsByTagName('body')[0].style.background = 'var(--global-bg)';    clearInterval(overtime);  }else {    document.querySelector("#web_bg").classList.add("bgCls");    document.getElementById('footer').style.display = 'none';    document.getElementById('content-inner').style.background = 'none';    document.getElementById('page').style.margin = 'auto';    document.getElementById('page').style.background = 'rgba(0,0,0,0)';    document.getElementsByTagName('body')[0].style.background = '#0d0d0d';    overtime = window.setInterval('setOverTime()', '500');  }  document.body.onmousedown = function(event) {    if (event.button == 0) {      var targ = event.target;        var tname = targ.tagName;       var tClassname = targ.classList[1];      var tidname = targ.id;      if (urlinfo == '/music/'){        if (tname == 'svg') {          var tsvg = targ.parentNode;          if(tsvg.classList[1] == 'aplayer-icon-menu' || tClassname == 'aplayer-icon-menu') {            setTimeout(function() {              document.getElementById('menu-mask').style.display = "block";              document.getElementById('menu-mask').style.animation = "0.5s ease 0s 1 normal none running to_show";            }, 100);          }        }else if (tname == 'path') {          var tpath = targ.parentNode;          var tpath2 = tpath.parentNode;          if(tpath2.classList[1] == 'aplayer-icon-menu') {            setTimeout(function() {              document.getElementById('menu-mask').style.display = "block";              document.getElementById('menu-mask').style.animation = "0.5s ease 0s 1 normal none running to_show";            }, 100);          }        }        if (tidname == 'menu-mask') {          var domHtml = domAplyerList();          domHtml.classList.remove("aplayer-list-hide");        }      }    }  }}function domAplyerList() {  var htmldom = document.getElementById('eo-music');  var htmldom2 = htmldom.childNodes[3];  return htmldom2;}function setOverTime() {  imgs = document.getElementById('eo-music').getElementsByClassName('aplayer-pic')[0].style.backgroundImage;  document.getElementById('web_bg').style.backgroundImage = imgs;}]]></content>
       
     </entry>
     
@@ -390,10 +379,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/music.js"/>
-      <url>/js/music.js</url>
+      <link href="/js/kslink.js"/>
+      <url>/js/kslink.js</url>
       
-        <content type="html"><![CDATA[var urlinfo = window.location.pathname;var overtime;qq_musicpage();function qq_musicpage() {  if (urlinfo != '/music/') {    document.querySelector("#web_bg").classList.remove("bgCls");    document.getElementById('web_bg').style.backgroundImage = 'none';    document.getElementById('footer').style.display = 'flex';    document.getElementsByClassName('pace-running')[0].style.background = 'var(--global-bg)';    document.getElementsByTagName('body')[0].style.background = 'var(--global-bg)';    clearInterval(overtime);  }else {    document.querySelector("#web_bg").classList.add("bgCls");    document.getElementById('footer').style.display = 'none';    document.getElementById('content-inner').style.background = 'none';    document.getElementById('page').style.margin = 'auto';    document.getElementById('page').style.background = 'rgba(0,0,0,0)';    document.getElementsByTagName('body')[0].style.background = '#0d0d0d';    overtime = window.setInterval('setOverTime()', '500');  }  document.body.onmousedown = function(event) {    if (event.button == 0) {      var targ = event.target;        var tname = targ.tagName;       var tClassname = targ.classList[1];      var tidname = targ.id;      if (urlinfo == '/music/'){        if (tname == 'svg') {          var tsvg = targ.parentNode;          if(tsvg.classList[1] == 'aplayer-icon-menu' || tClassname == 'aplayer-icon-menu') {            setTimeout(function() {              document.getElementById('menu-mask').style.display = "block";              document.getElementById('menu-mask').style.animation = "0.5s ease 0s 1 normal none running to_show";            }, 100);          }        }else if (tname == 'path') {          var tpath = targ.parentNode;          var tpath2 = tpath.parentNode;          if(tpath2.classList[1] == 'aplayer-icon-menu') {            setTimeout(function() {              document.getElementById('menu-mask').style.display = "block";              document.getElementById('menu-mask').style.animation = "0.5s ease 0s 1 normal none running to_show";            }, 100);          }        }        if (tidname == 'menu-mask') {          var domHtml = domAplyerList();          domHtml.classList.remove("aplayer-list-hide");        }      }    }  }}function domAplyerList() {  var htmldom = document.getElementById('eo-music');  var htmldom2 = htmldom.childNodes[3];  return htmldom2;}function setOverTime() {  imgs = document.getElementById('eo-music').getElementsByClassName('aplayer-pic')[0].style.backgroundImage;  document.getElementById('web_bg').style.backgroundImage = imgs;}]]></content>
+        <content type="html"><![CDATA[var leonus = {    linkCom: e => {        var t = document.querySelector(".el-textarea__inner");        "bf" == e ? (t.value = "```yml\n", t.value += "- name: \n  link: \n  avatar: \n  descr: \n  siteshot: ", t.value += "\n```", t.setSelectionRange(15, 15)) : (t.value = "站点名称：\n站点地址：\n头像链接：\n站点描述：\n站点截图：", t.setSelectionRange(5, 5)), t.focus()    },    owoBig: () => {        if (!document.getElementById("post-comment") || document.body.clientWidth < 768) return;        let e = 1,            t = "",            o = document.createElement("div"),            n = document.querySelector("body");        o.id = "owo-big", n.appendChild(o), new MutationObserver((l => {            for (let a = 0; a < l.length; a++) {                let i = l[a].addedNodes,                    s = "";                if (2 == i.length && "OwO-body" == i[1].className) s = i[1];                else {                    if (1 != i.length || "tk-comment" != i[0].className) continue;                    s = i[0]                }                s.onmouseover = l => {                    e && ("OwO-body" == s.className && "IMG" == l.target.tagName || "tk-owo-emotion" == l.target.className) && (e = 0, t = setTimeout((() => {                        let e = 3 * l.path[0].clientHeight,                            t = 3 * l.path[0].clientWidth,                            a = l.x - l.offsetX - (t - l.path[0].clientWidth) / 2,                            i = l.y - l.offsetY;                        a + t > n.clientWidth && (a -= a + t - n.clientWidth + 10), a < 0 && (a = 10), o.style.cssText = `display:flex; height:${e}px; width:${t}px; left:${a}px; top:${i}px;`, o.innerHTML = `<img src="${l.target.src}">`                    }), 300))                }, s.onmouseout = () => {                    o.style.display = "none", e = 1, clearTimeout(t)                }            }        })).observe(document.getElementById("post-comment"), {            subtree: !0,            childList: !0        })    },};]]></content>
       
     </entry>
     
@@ -423,17 +412,6 @@
     
     <entry>
       <title></title>
-      <link href="/js/title.js"/>
-      <url>/js/title.js</url>
-      
-        <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener('visibilitychange', function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = '👻别走嘛，坐下来喝茶鸭☕';    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = '🐷死鬼！你总算回来了~😼';    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/timeago.min.js"/>
       <url>/js/timeago.min.js</url>
       
@@ -456,21 +434,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/weibo.js"/>
-      <url>/js/weibo.js</url>
+      <link href="/js/title.js"/>
+      <url>/js/title.js</url>
       
-        <content type="html"><![CDATA[// 如果你开启了在手机端显示侧边栏，可以将下面这行代码注释，开启下面的weibo();try { if (document.getElementById('weibo').clientWidth) weibo(); } catch (error) {}// weibo();function weibo() {    let hotness = {        '爆': 'weibo-boom',        '热': 'weibo-hot',        '沸': 'weibo-boil',        '新': 'weibo-new',        '荐': 'weibo-recommend',        '影': 'weibo-jyzy',        '剧': 'weibo-jyzy',        '综': 'weibo-jyzy'    }    let html = '<div id="weibo-container">'    let data = JSON.parse(localStorage.getItem('weibo'));    let nowTime = Date.now();    let ls;    if (data == null || nowTime - data.time > 600000) { // 600000为缓存时间，即10分钟，避免频繁请求，加快本地访问速度。        getData();        return    } else {        ls = JSON.parse(data.ls)    };    for (let item of ls) {        html += '<div class="weibo-list-item"><div class="weibo-hotness ' + hotness[(item.hot || '荐')] + '">' + (item.hot || '荐') + '</div>' +            '<span class="weibo-title"><a title="' + item.title + '"href="' + item.url + '" target="_blank" rel="external nofollow noreferrer">' + item.title + '</a></span>' +            '<div class="weibo-num"><span>' + item.num + '</span></div></div>'    }    html += '</div>';    document.getElementById('weiboContent').innerHTML = html;}function getData() {    fetch('https://weibo.eurkon.com/api').then(data => data.json()).then(data => {        data = { time: Date.now(), ls: JSON.stringify(data) }        localStorage.setItem('weibo', JSON.stringify(data))    }).then(weibo);}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/welcome.js"/>
-      <url>/js/welcome.js</url>
-      
-        <content type="html"><![CDATA[//首次访问弹窗if (localStorage.getItem("popWelcomeWindow") != "0") {    if(document.referrer==undefined||document.referrer.indexOf("dp2002.top")!=-1||document.referrer.indexOf("efdgdfgdf.github.io")!=-1){ //改成自己域名，注意是referrer!!! qwq        Snackbar.show({            pos: "top-right",            showAction: false,            text: '欢迎访问本站！'        })    }else{        Snackbar.show({                pos: "top-right",                showAction: false,                text: `欢迎来自${document.referrer.split("://")[1].split("/")[0]}的童鞋访问本站！`            })        localStorage.setItem("popWelcomeWindow", "0");    }}if (sessionStorage.getItem("popCookieWindow") != "0") {    setTimeout(function () {        Snackbar.show({            text: '本站使用Cookie和本地/会话存储保证浏览体验和网站统计',            pos: 'bottom-right',            actionText: "查看博客声明",            onActionClick: function (element) {                window.open("/license")            },        })    }, 3000)}//不在弹出Cookie提醒sessionStorage.setItem("popCookieWindow", "0");//自带上文浏览器提示function browserTC() {    btf.snackbarShow("");    Snackbar.show({        text: '浏览器版本较低，网站样式可能错乱',        actionText: '关闭',        duration: '6000',        pos: 'bottom-right'    });}function browserVersion() {    var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串    var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1; //判断是否IE<11浏览器    var isIE11 = userAgent.indexOf('Trident') > -1 && userAgent.indexOf("rv:11.0") > -1;    var isEdge = userAgent.indexOf("Edge") > -1 && !isIE; //Edge浏览器    var isFirefox = userAgent.indexOf("Firefox") > -1; //Firefox浏览器    var isOpera = userAgent.indexOf("Opera")>-1 || userAgent.indexOf("OPR")>-1 ; //Opera浏览器    var isChrome = userAgent.indexOf("Chrome")>-1 && userAgent.indexOf("Safari")>-1 && userAgent.indexOf("Edge")==-1 && userAgent.indexOf("OPR")==-1; //Chrome浏览器    var isSafari = userAgent.indexOf("Safari")>-1 && userAgent.indexOf("Chrome")==-1 && userAgent.indexOf("Edge")==-1 && userAgent.indexOf("OPR")==-1; //Safari浏览器    if(isEdge) {        if(userAgent.split('Edge/')[1].split('.')[0]<90){            browserTC()        }    } else if(isFirefox) {        if(userAgent.split('Firefox/')[1].split('.')[0]<90){            browserTC()        }    } else if(isOpera) {        if(userAgent.split('OPR/')[1].split('.')[0]<80){            browserTC()        }    } else if(isChrome) {        if(userAgent.split('Chrome/')[1].split('.')[0]<90){            browserTC()        }    } else if(isSafari) {        //不知道Safari哪个版本是该淘汰的老旧版本    }}//2022-10-29修正了一个错误：过期时间应使用toGMTString()，而不是toUTCString()，否则实际过期时间在中国差了8小时function setCookies(obj, limitTime) {    let data = new Date(new Date().getTime() + limitTime * 24 * 60 * 60 * 1000).toGMTString()    for (let i in obj) {        document.cookie = i + '=' + obj[i] + ';expires=' + data    }}function getCookie(name) {    var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");    if (arr = document.cookie.match(reg))        return unescape(arr[2]);    else        return null;}if(getCookie('browsertc')!=1){    setCookies({        browsertc: 1,    }, 1);    browserVersion();}]]></content>
+        <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener('visibilitychange', function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = '👻别走嘛，坐下来喝茶鸭☕';    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = '🐷死鬼！你总算回来了~😼';    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});]]></content>
       
     </entry>
     
@@ -488,22 +455,11 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title></title>
+      <link href="/js/welcome.js"/>
+      <url>/js/welcome.js</url>
       
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[//首次访问弹窗if (localStorage.getItem("popWelcomeWindow") != "0") {    if(document.referrer==undefined||document.referrer.indexOf("dp2002.top")!=-1||document.referrer.indexOf("efdgdfgdf.github.io")!=-1){ //改成自己域名，注意是referrer!!! qwq        Snackbar.show({            pos: "top-right",            showAction: false,            text: '欢迎访问本站！'        })    }else{        Snackbar.show({                pos: "top-right",                showAction: false,                text: `欢迎来自${document.referrer.split("://")[1].split("/")[0]}的童鞋访问本站！`            })        localStorage.setItem("popWelcomeWindow", "0");    }}if (sessionStorage.getItem("popCookieWindow") != "0") {    setTimeout(function () {        Snackbar.show({            text: '本站使用Cookie和本地/会话存储保证浏览体验和网站统计',            pos: 'bottom-right',            actionText: "查看博客声明",            onActionClick: function (element) {                window.open("/license")            },        })    }, 3000)}//不在弹出Cookie提醒sessionStorage.setItem("popCookieWindow", "0");//自带上文浏览器提示function browserTC() {    btf.snackbarShow("");    Snackbar.show({        text: '浏览器版本较低，网站样式可能错乱',        actionText: '关闭',        duration: '6000',        pos: 'bottom-right'    });}function browserVersion() {    var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串    var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1; //判断是否IE<11浏览器    var isIE11 = userAgent.indexOf('Trident') > -1 && userAgent.indexOf("rv:11.0") > -1;    var isEdge = userAgent.indexOf("Edge") > -1 && !isIE; //Edge浏览器    var isFirefox = userAgent.indexOf("Firefox") > -1; //Firefox浏览器    var isOpera = userAgent.indexOf("Opera")>-1 || userAgent.indexOf("OPR")>-1 ; //Opera浏览器    var isChrome = userAgent.indexOf("Chrome")>-1 && userAgent.indexOf("Safari")>-1 && userAgent.indexOf("Edge")==-1 && userAgent.indexOf("OPR")==-1; //Chrome浏览器    var isSafari = userAgent.indexOf("Safari")>-1 && userAgent.indexOf("Chrome")==-1 && userAgent.indexOf("Edge")==-1 && userAgent.indexOf("OPR")==-1; //Safari浏览器    if(isEdge) {        if(userAgent.split('Edge/')[1].split('.')[0]<90){            browserTC()        }    } else if(isFirefox) {        if(userAgent.split('Firefox/')[1].split('.')[0]<90){            browserTC()        }    } else if(isOpera) {        if(userAgent.split('OPR/')[1].split('.')[0]<80){            browserTC()        }    } else if(isChrome) {        if(userAgent.split('Chrome/')[1].split('.')[0]<90){            browserTC()        }    } else if(isSafari) {        //不知道Safari哪个版本是该淘汰的老旧版本    }}//2022-10-29修正了一个错误：过期时间应使用toGMTString()，而不是toUTCString()，否则实际过期时间在中国差了8小时function setCookies(obj, limitTime) {    let data = new Date(new Date().getTime() + limitTime * 24 * 60 * 60 * 1000).toGMTString()    for (let i in obj) {        document.cookie = i + '=' + obj[i] + ';expires=' + data    }}function getCookie(name) {    var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");    if (arr = document.cookie.match(reg))        return unescape(arr[2]);    else        return null;}if(getCookie('browsertc')!=1){    setCookies({        browsertc: 1,    }, 1);    browserVersion();}]]></content>
       
     </entry>
     
@@ -521,11 +477,44 @@
     
     
     <entry>
+      <title>游戏</title>
+      <link href="/games/index.html"/>
+      <url>/games/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/weibo.js"/>
+      <url>/js/weibo.js</url>
+      
+        <content type="html"><![CDATA[// 如果你开启了在手机端显示侧边栏，可以将下面这行代码注释，开启下面的weibo();try { if (document.getElementById('weibo').clientWidth) weibo(); } catch (error) {}// weibo();function weibo() {    let hotness = {        '爆': 'weibo-boom',        '热': 'weibo-hot',        '沸': 'weibo-boil',        '新': 'weibo-new',        '荐': 'weibo-recommend',        '影': 'weibo-jyzy',        '剧': 'weibo-jyzy',        '综': 'weibo-jyzy'    }    let html = '<div id="weibo-container">'    let data = JSON.parse(localStorage.getItem('weibo'));    let nowTime = Date.now();    let ls;    if (data == null || nowTime - data.time > 600000) { // 600000为缓存时间，即10分钟，避免频繁请求，加快本地访问速度。        getData();        return    } else {        ls = JSON.parse(data.ls)    };    for (let item of ls) {        html += '<div class="weibo-list-item"><div class="weibo-hotness ' + hotness[(item.hot || '荐')] + '">' + (item.hot || '荐') + '</div>' +            '<span class="weibo-title"><a title="' + item.title + '"href="' + item.url + '" target="_blank" rel="external nofollow noreferrer">' + item.title + '</a></span>' +            '<div class="weibo-num"><span>' + item.num + '</span></div></div>'    }    html += '</div>';    document.getElementById('weiboContent').innerHTML = html;}function getData() {    fetch('https://weibo.eurkon.com/api').then(data => data.json()).then(data => {        data = { time: Date.now(), ls: JSON.stringify(data) }        localStorage.setItem('weibo', JSON.stringify(data))    }).then(weibo);}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>🎉夜晚音乐会🎇</title>
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[<div style="text-align:center">    <span style="color:#0396ff;font-size:1.625rem">        <b>⚡欢迎来到aplayer音乐平台🎸，尽情开腔吧🤪⚡</b>    </span></div><div class="tabs" id="音乐厅"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#音乐厅-1"><i class="fa-brands fa-soundcloud"></i>一号厅：民谣抒情</button></li><li class="tab"><button type="button" data-href="#音乐厅-2"><i class="fa-solid fa-guitar"></i>二号厅：流行曲</button></li><li class="tab"><button type="button" data-href="#音乐厅-3"><i class="fa-solid fa-heart-pulse"></i>三号厅：随便听听</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="音乐厅-1"><div id="aplayer-LVGthAWk" class="aplayer aplayer-tag-marker meting-tag-marker"     data-id="8594368955" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="音乐厅-2"><div id="aplayer-KPNtQsye" class="aplayer aplayer-tag-marker meting-tag-marker"     data-id="7998156690" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="音乐厅-3"><div id="aplayer-QITHNbqS" class="aplayer aplayer-tag-marker meting-tag-marker"     data-id="3102067210" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><!-- Simple example (songid, server, type)  --><!--     <div id="aplayer-OkUeoHIw" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2882393676" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div> -->    <div id="aplayer-gmaLhtrZ" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7134539309" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><div style="text-align:center">    <span style="color:#0396ff;font-size:1.625rem">        <b>🕯️多样的音乐平台，等你来探索🕯️</b>    </span></div><div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://img1.imgtp.com/2023/02/08/h9mUTIVe.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">LX&nbsp;Music</div>  <p>一个免费无广、开源的音乐播放器</p>  <a href='https://lxmusic.toside.cn/'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://img1.imgtp.com/2023/02/08/LKdbQKqb.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">Mikutap-节奏音乐</div>  <p>点击屏幕或敲动键盘，产生不一样的音色与节奏感！</p>  <a href='https://aidn.jp/mikutap/?source=giaoshou.com'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://cdn.pixabay.com/photo/2022/06/30/20/10/lake-7294456_1280.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">更多音乐🎶</div>  <p>快来评论区分享你的歌单吧！</p>  <a href='https://music.163.com/'></a>  </figcaption>  </figure>  <!--   <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://cdn.cbd.int/akilar-candyassets@1.0.36/image/20200907110508327.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">Gundam</div>  <p>哦咧哇gundam哒！</p>  <a href='/Gallery/Gundam/'></a>  </figcaption>  </figure>   --></div><p>注：离开此页面将停止音乐的播放哦</p><style>/* 去掉边框、透明化 */#content-inner #page {    border: unset !important;    --trans-dark: transparent;}</style><script type="text/javascript">document.documentElement.setAttribute("data-theme", "dark");</script> <!--页面默认暗色-->]]></content>
+        <content type="html"><![CDATA[<div style="text-align:center">    <span style="color:#0396ff;font-size:1.625rem">        <b>⚡欢迎来到aplayer音乐平台🎸，尽情开腔吧🤪⚡</b>    </span></div><div class="tabs" id="音乐厅"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#音乐厅-1"><i class="fa-brands fa-soundcloud"></i>一号厅：民谣抒情</button></li><li class="tab"><button type="button" data-href="#音乐厅-2"><i class="fa-solid fa-guitar"></i>二号厅：流行曲</button></li><li class="tab"><button type="button" data-href="#音乐厅-3"><i class="fa-solid fa-heart-pulse"></i>三号厅：随便听听</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="音乐厅-1"><div id="aplayer-LVGthAWk" class="aplayer aplayer-tag-marker meting-tag-marker"     data-id="8594368955" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="音乐厅-2"><div id="aplayer-KPNtQsye" class="aplayer aplayer-tag-marker meting-tag-marker"     data-id="7998156690" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="音乐厅-3"><div id="aplayer-QITHNbqS" class="aplayer aplayer-tag-marker meting-tag-marker"     data-id="3102067210" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><!-- Simple example (songid, server, type)  --><!--     <div id="aplayer-ucSTYlns" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2882393676" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div> -->    <div id="aplayer-WaQBIdas" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="7134539309" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><div style="text-align:center">    <span style="color:#0396ff;font-size:1.625rem">        <b>🕯️多样的音乐平台，等你来探索🕯️</b>    </span></div><div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://img1.imgtp.com/2023/02/08/h9mUTIVe.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">LX&nbsp;Music</div>  <p>一个免费无广、开源的音乐播放器</p>  <a href='https://lxmusic.toside.cn/'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://img1.imgtp.com/2023/02/08/LKdbQKqb.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">Mikutap-节奏音乐</div>  <p>点击屏幕或敲动键盘，产生不一样的音色与节奏感！</p>  <a href='https://aidn.jp/mikutap/?source=giaoshou.com'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://cdn.pixabay.com/photo/2022/06/30/20/10/lake-7294456_1280.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">更多音乐🎶</div>  <p>快来评论区分享你的歌单吧！</p>  <a href='https://music.163.com/'></a>  </figcaption>  </figure>  <!--   <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://cdn.cbd.int/akilar-candyassets@1.0.36/image/20200907110508327.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">Gundam</div>  <p>哦咧哇gundam哒！</p>  <a href='/Gallery/Gundam/'></a>  </figcaption>  </figure>   --></div><p>注：离开此页面将停止音乐的播放哦</p><style>/* 去掉边框、透明化 */#content-inner #page {    border: unset !important;    --trans-dark: transparent;}</style><script type="text/javascript">document.documentElement.setAttribute("data-theme", "dark");</script> <!--页面默认暗色-->]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -537,6 +526,17 @@
       <url>/css/essay_page/essay_page.css</url>
       
         <content type="html"><![CDATA[#page:has(#essay_page) {  border: 0;  box-shadow: none !important;  padding: 0 !important;  background: transparent !important;}#page:has(#essay_page) .page-title {  display: none;}#web_bg ~ .page:has(#essay_page) {  background: var(--anzhiyu-background);}#bber .bber-container-img {  display: flex;  align-items: center;  justify-content: space-around;  width: 100%;  flex-wrap: wrap;  margin-bottom: 0.3rem;}#bber .bber-container-img .bber-content-noimg {  width: calc(100% / 4 - 5px);}#bber .bber-content-img img {  object-fit: cover;  max-height: 100%;  border-radius: 12px;}#bber .bber-content-img {  height: 100px;  border-radius: 12px;  overflow: hidden;  display: flex;  position: relative;  width: calc(100% / 4 - 5px);  margin-bottom: 10px;}#bber .bber-content .datacont {  order: 0;  font-size: 0.8rem;  font-weight: 700;  color: var(--anzhiyu-fontcolor);  width: 100%;  line-height: 1.38;  border-radius: 12px;  margin-bottom: 0.5rem;  display: flex;  flex-direction: column;  text-align: justify;}#bber p {  margin: 0px;}#bber div.bber-content {  display: flex;  flex-flow: wrap;  border-radius: 12px;  width: 100%;  height: 100%;}#bber .timeline ul li.bber-item {  position: relative;  width: 32%;  border: var(--style-border-always);  border-radius: 12px;  padding: 1rem 1rem 0.5rem;  transition: all 0.3s ease 0s;  display: flex;  flex-flow: column nowrap;  justify-content: space-between;  align-items: flex-start;  background: var(--anzhiyu-card-bg);  box-shadow: var(--anzhiyu-shadow-border);  margin-right: 2%;}#bber .timeline #waterfall.show {  opacity: 1;}#bber .timeline #waterfall {  opacity: 0;  transition: all 0.3s ease 0s;}#bber ul.list {  display: flex;  flex-flow: row wrap;  justify-content: space-between;}#bber {  margin-top: 1rem;  width: 100%;}#bber > section > ul > li.bber-item {  margin-bottom: 1rem;}#bber-tips {  font-size: 14px;  display: flex;  justify-content: center;  margin-top: 1rem;}#bber .timeline ul li.bber-item hr {  display: flex;  position: relative;  margin: 8px 0px;  border: 1px dashed var(--anzhiyu-theme-op);  width: 100%;}#bber .bber-info {  display: flex;  align-items: center;}#bber > section > ul > li > div .bber-info-time,#bber > section > ul > li > div .bber-info-from {  color: var(--anzhiyu-fontcolor);  font-size: 0.7rem;  background-color: var(--anzhiyu-gray-op);  padding: 0px 8px;  border-radius: 20px;  cursor: default;  display: flex;  align-items: center;}#bber .bber-info .far.fa-clock {  margin-right: 4px;}#bber > section > ul > li > div .bber-info-from span,#bber > section > ul > li > div .bber-info-from {  margin-left: 4px;}#bber .bber-bottom {  display: flex;  justify-content: space-between;  width: 100%;  margin-top: 10px;}#bber .bber-bottom .bber-reply {  cursor: url(/img/x2.cur), auto !important;}#bber .timeline ul li.bber-item:hover {  border: var(--style-border-hover);}#bber .bber-content-link {  display: flex;  margin-left: 0.5rem;  font-size: 0.7rem;  align-items: center;  background-color: rgba(245, 108, 108, 0.13);  color: rgb(245, 108, 108);  padding: 0px 8px;  border-radius: 20px;}#bber .bber-content-link i {  margin-right: 3px;}#bber .bber-content-link:hover {  background-color: var(--anzhiyu-main);  color: var(--anzhiyu-white);}#bber .bber-music {  width: 100%;  height: 90px;  margin: 0.5rem 0;  border-radius: 8px;  overflow: hidden;  border: var(--style-border-always);  background: var(--anzhiyu-secondbg);}#bber .aplayer {  margin: 0;}#bber .aplayer.aplayer-withlrc .aplayer-pic {  height: 82px;  width: 82px;  margin: 4px;  border-radius: 4px;}.bber-music .aplayer.aplayer-withlrc .aplayer-info {  padding: 5px 7px 0;}#bber .aplayer .aplayer-info .aplayer-music {  height: 23px;}#bber .aplayer .aplayer-info .aplayer-music .aplayer-title {  font-size: 0.8rem;  font-weight: 700;  margin: 0;  color: var(--anzhiyu-fontcolor);}#bber .aplayer .aplayer-info .aplayer-controller {  align-items: center;}#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap {  padding: 0;}#bber .aplayer .aplayer-info .aplayer-controller .aplayer-time {  position: initial;}#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar {  background: var(--anzhiyu-gray);  height: 8px;  border-radius: 12px;  transition: 0.3s;  overflow: hidden;}#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded {  height: 100%;  border-radius: 12px;}#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played {  height: 100%;  border-radius: 12px;}#bber .aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played .aplayer-thumb {  display: none;}#bber .aplayer .aplayer-info .aplayer-controller .aplayer-time {  position: initial;}/* 顶部样式 */.author-content.author-content-item.essayPage {  height: 19rem;  background: url(https://img02.anzhiy.cn/adminuploads/1/2022/08/21/630249e2df20f.jpg) left 28% / cover no-repeat;  color: var(--anzhiyu-white);  overflow: hidden;  margin-top: 0px;}#page:has(#essay_page) .author-content-item .card-content .banner-button-group .banner-button:hover {  color: var(--anzhiyu-white);  border-radius: 20px !important;}/* 响应式 */@media screen and (max-width: 1300px) {  #bber .timeline ul li.bber-item {    width: 49%;    margin-right: 1%;  }}@media screen and (max-width: 768px) {  #bber .timeline ul li.bber-item {    width: 100%;    margin-right: 0px;  }}[data-theme="dark"] #bber .bber-music .aplayer,[data-theme="dark"] #bber .aplayer .aplayer-lrc:before,[data-theme="dark"] #bber .aplayer .aplayer-lrc:after {  background: var(--anzhiyu-card-bg);  color: var(--anzhiyu-fontcolor);}#bber .aplayer .aplayer-lrc p {  color: var(--anzhiyu-fontcolor);}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
