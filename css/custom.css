@@ -1415,7 +1415,7 @@ h6::before {
   --anzhiyu-pink: #ff7c7c;
   --anzhiyu-green: #57bd6a;
   --anzhiyu-fontcolor: #363636;
-  --anzhiyu-background: #80d3ff;
+  --anzhiyu-background: linear-gradient(135deg,#74ebd5,#acb6e5);
   --anzhiyu-reverse: #000;
   --anzhiyu-maskbg: rgba(255, 255, 255, 0.6);
   --anzhiyu-maskbgdeep: rgba(255, 255, 255, 0.85);
@@ -1464,10 +1464,12 @@ h6::before {
   --anzhiyu-card-border: #42444a;
 }
 
+
+/* 鱼塘 朋友圈背景 */
 #web_bg ~ .page:has(.fcircle_page) {
-  background: url(https://img1.imgtp.com/2023/02/03/asg1o5dA.png);
+  background-color: linear-gradient(135deg,#24c6dc,#514a9d);
 }
 [data-theme="dark"] #web_bg ~ .page:has(.fcircle_page) {
-  background: url(https://img1.imgtp.com/2023/02/03/asg1o5dA.png);
+  background-color: linear-gradient(135deg,#283048,#859398);
 }
 
