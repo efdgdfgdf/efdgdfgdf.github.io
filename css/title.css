@@ -1,0 +1,17 @@
+/* 网站标题、副标题闪光 */
+/* #page-header #site-title,
+#page-header #site-subtitle {
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(255, 255, 255) 0px 0px 10px, rgb(255, 255, 255) 0px 0px 20px,
+    rgb(171, 220, 255) 0px 0px 30px, rgb(171, 220, 255) 0px 0px 40px,
+    rgb(171, 220, 255) 0px 0px 70px, rgb(171, 220, 255) 0px 0px 80px,
+    rgb(171, 220, 255) 0px 0px 100px;
+} */
+#page-header #site-title:hover,
+#page-header #site-subtitle:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(255, 255, 255) 0px 0px 10px, rgb(255, 255, 255) 0px 0px 20px,
+    rgb(76, 184, 196) 0px 0px 30px, rgb(76, 184, 196) 0px 0px 40px,
+    rgb(76, 184, 196) 0px 0px 70px, rgb(76, 184, 196) 0px 0px 80px,
+    rgb(76, 184, 196) 0px 0px 100px;
+}

@@ -1473,3 +1473,11 @@ h6::before {
   background: linear-gradient(135deg,#000c40,#607d8b);
 }
 
+
+/* 头像卡片动态背景 */
+.card-info>.is-center:hover {
+  background: url(https://gcore.jsdelivr.net/gh/rigodlee/BLOGCDN/img/H3342af90d24b4d62b9bbfec9688ccc25M.gif);
+}
+
+
+
