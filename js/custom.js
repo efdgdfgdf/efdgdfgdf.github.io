@@ -198,6 +198,7 @@ var anzhiyu = {
   },
 };
 
+anzhiyu.commentText(e);
 anzhiyu.changeTimeInEssay();
 anzhiyu.reflashEssayWaterFall();
 

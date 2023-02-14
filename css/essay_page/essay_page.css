@@ -40,7 +40,7 @@
 
 #bber .bber-content .datacont {
   order: 0;
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-weight: 700;
   color: var(--anzhiyu-fontcolor);
   width: 100%;
@@ -51,6 +51,7 @@
   flex-direction: column;
   text-align: justify;
 }
+
 #bber p {
   margin: 0px;
 }
@@ -92,7 +93,7 @@
   margin-top: 1rem;
   width: 100%;
 }
-#bber > section > ul > li.bber-item {
+#bber > section > ul.list.show > li.bber-item { 
   margin-bottom: 1rem;
 }
 
@@ -149,6 +150,17 @@
 
 #bber .timeline ul li.bber-item:hover {
   border: var(--style-border-hover);
+}
+
+#bber>section>ul>li>div .bber-info-from, #bber>section>ul>li>div .bber-info-time {
+  color: var(--anzhiyu-fontcolor);
+  font-size: .7rem;
+  background-color: var(--anzhiyu-gray-op);
+  padding: 0 8px;
+  border-radius: 20px;
+  cursor: default;
+  display: flex;
+  align-items: center;
 }
 
 #bber .bber-content-link {

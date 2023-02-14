@@ -3321,7 +3321,7 @@ h1.page-title + .tag-cloud-list {
   -ms-flex-direction: column;
   flex-direction: column;
 }
-.page .card-recent-post {
+.page .card-tags {
   -webkit-box-ordinal-group: 2;
   -moz-box-ordinal-group: 2;
   -o-box-ordinal-group: 2;
