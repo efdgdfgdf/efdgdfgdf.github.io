@@ -6511,7 +6511,7 @@ blockquote.pullquote.right {
 }
 
 #web_bg ~ .page:has(#about-page) {
-  background: var(--anzhiyu-background);
+  background: url(https://tuchuang.voooe.cn/images/2023/02/14/imagebe37bbdce1a14086.png);
 }
 
 #about-page .author-box {
