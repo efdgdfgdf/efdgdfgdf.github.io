@@ -1,7 +1,3 @@
-/* [data-theme="dark"] #web_bg {
-  background: url(https://w.wallhaven.cc/full/48/wallhaven-48rq8j.jpg) !important; 
-} */
-
 /* 页脚与头图透明 */
   #footer {
     background: transparent !important;
@@ -225,7 +221,7 @@
 /* 公众号关注 Start */
 
 [data-theme='light'] #aside-content .card-widget#card-wechat {
-    background: #22a6b3 !important;
+    background: #72c6ef !important;
 }
 
 #aside-content .card-widget#card-wechat {
@@ -1335,7 +1331,7 @@ h6::before {
 
 
 /* 全局宽度 */
-.layout {
+.layout, .layout.hide-aside {
   max-width: 1400px;
 }
 
@@ -1343,6 +1339,14 @@ h6::before {
 .aside-content {
   max-width: 318px;
   min-width: 300px;
+}
+
+#content-inner, #footer {
+  -webkit-animation: bottom-top 1s;
+  -moz-animation: bottom-top 1s;
+  -o-animation: bottom-top 1s;
+  -ms-animation: bottom-top 1s;
+  animation: bottom-top 1s;
 }
 
 /* 平板尺寸自适应(不启用侧边栏宽度限制) */
@@ -1364,7 +1368,16 @@ h6::before {
   display: none;
 }
 
-
+/* 图片下小图标 */
+.jg-caption-visible::before {
+  content: "⊙ ";
+} 
+.fancybox-caption__body::before {
+  content: "⊙ ";
+} 
+.img-alt.is-center::before {
+  content: "⊙ ";
+}
 
 
 
@@ -1416,7 +1429,7 @@ h6::before {
   --anzhiyu-pink: #ff7c7c;
   --anzhiyu-green: #57bd6a;
   --anzhiyu-fontcolor: #363636;
-  --anzhiyu-background: linear-gradient(135deg,#36d1dc,#5b86e5);
+  --anzhiyu-background: linear-gradient(135deg,#72c6ef 40%,#004e8f 100%);
   --anzhiyu-reverse: #000;
   --anzhiyu-maskbg: rgba(255, 255, 255, 0.6);
   --anzhiyu-maskbgdeep: rgba(255, 255, 255, 0.85);
@@ -1446,7 +1459,7 @@ h6::before {
   --anzhiyu-pink: #ff7c7c;
   --anzhiyu-green: #57bd6a;
   --anzhiyu-fontcolor: #f7f7fa;
-  --anzhiyu-background: linear-gradient(135deg,#314755,#26a0da);
+  --anzhiyu-background:  linear-gradient(to right, #243949 0%, #517fa4 100%);
   --anzhiyu-reverse: #fff;
   --anzhiyu-maskbg: rgba(0, 0, 0, 0.6);
   --anzhiyu-maskbgdeep: rgba(0, 0, 0, 0.85);
@@ -1469,7 +1482,7 @@ h6::before {
 
 /* 鱼塘 朋友圈背景 */
 #web_bg ~ .page:has(.fcircle_page) {
-  background: linear-gradient(135deg,#4ca1af,#c4e0e5);
+  background: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
 }
 [data-theme="dark"] #web_bg ~ .page:has(.fcircle_page) {
   background: linear-gradient(135deg,#000c40,#607d8b);
@@ -1507,4 +1520,136 @@ h6::before {
   .site-card {
     width: calc(100% / 2 - 16px) !important;
   }
+}
+
+
+/* 切换背景 */
+/* 由于全屏会出bug，所以直接给他隐藏 */
+
+.winbox {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.wb-full {
+  display: none;
+}
+
+.wb-min {
+  background-position: center;
+}
+
+[data-theme='dark'] .wb-body,
+[data-theme='dark'] #changeBgBox {
+  background: #333 !important;
+}
+
+.bgbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pimgbox,
+.imgbox,
+.box {
+  width: 166px;
+  margin: 10px;
+  background-size: cover
+}
+
+.pimgbox,
+.imgbox {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.pimgbox {
+  height: 240px;
+}
+
+.imgbox {
+  height: 95px;
+}
+
+.box {
+  height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  /* 背景 */
+  .pimgbox,
+  .imgbox,
+  .box {
+      height: 73px;
+      width: 135px;
+  }
+  .pimgbox {
+      height: 205px;
+  }
+
+  /* 2.0新增内容 */    
+  .wb-min {
+      display: none;
+  }
+  #changeBgBox .wb-body::-webkit-scrollbar {
+      display: none;
+  }
+}
+
+
+/* 切换的背景图片链接输入框placeholder*/
+input#pic-link::-webkit-input-placeholder {
+  color: rgb(150, 150, 150);
+}
+
+input#pic-link {
+  width: 82%;
+  border-radius: 30px;
+  border: 1px solid #5fcdff;
+  padding: 5px 10px 5px 10px;
+  line-height: 2;
+  outline: 1px solid #ffffff;
+}
+
+/*  */
+#bingDayBox::before {
+  left: 34px;
+  content: "必应每日壁纸";
+}
+#bingHistoryBox::before {
+  left: 34px;
+  content: "必应历史壁纸";
+}
+#EEEDogBox::before {
+  left: 20px;
+  content: "EEEDog动漫壁纸";
+}
+#seovxBox::before {
+  left: 30px;
+  content: "seovx美女壁纸";
+}
+#picsumBox::before {
+  left: 24px;
+  content: "picsum随机壁纸";
+}
+#waiBizhiBox::before {
+  left: 34px;
+  content: "小歪高清壁纸";
+}
+#btstuBox::before {
+  left: 34px;
+  content: "博天随机壁纸";
+}
+#unsplashBox::before {
+    left: 15px;
+    content: "Unsplash随机壁纸";
+}
+.apiBox::before {
+  position: relative;
+  color: #f0f8ff;
+  border-radius: 5px;
+  top: 35px;
+  padding: 2px 5px;
+  background: #00000090;
 }

@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 .addBtn button {
     transition: .2s;
@@ -34,5 +35,5 @@ button {
 }
 .addBtn button:hover {
     background: var(--theme-color);
-    color: #fff;
+    color: #6078ea;
 }
