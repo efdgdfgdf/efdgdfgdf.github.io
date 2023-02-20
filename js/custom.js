@@ -244,14 +244,46 @@ window.onload = function () {
   }
 }
 
-
 /**
  * 切换背景
  */ 
+// 更新版本需要每个用户都恢复一次默认设置
+if (localStorage.getItem("reset_2") == undefined) {
+  localStorage.setItem("reset_2", "1");
+  localStorage.removeItem("reset_1");
+  clearItem();
+  setTimeout(function () {
+    new Vue({
+      data: function () {
+        this.$notify({
+          title: "提示🍒",
+          message: " (｡･∀･)ﾉﾞ由于网站部分设置项更新，当前已为您重置所有设置，祝您愉快！",
+          position: 'top-left',
+          offset: 50,
+          showClose: true,
+          type: "success",
+          duration: 8000
+        });
+      }
+    })
+  }, 1500);
+}
+
+// 清除localStorage配置项
+function clearItem() {
+  localStorage.removeItem('blogbg');
+}
+
+// 刷新窗口
+function reload() {
+  window.location.reload();
+}
+
 // 切换链接对应的背景(加入了链接检验与防抖)
 function getPicture() {
   debounce(getPicture_, 300);
 }
+
 
 function getPicture_() {
   let bg = document.getElementById("web_bg");
@@ -306,7 +338,6 @@ function checkImgExists(imgurl) {
     }
   })
 }
-
 
 // 必应每日图片
 if (localStorage.getItem("bing") == undefined) {
@@ -394,7 +425,7 @@ function createWinbox() {
       onrestore: () => { div.innerHTML = '' }
   });
   winResize();
-  window.addEventListener('resize', winResize)
+  window.addEventListener('resize', winResize);
 
   // 每一类我放了一个演示，直接往下复制粘贴 a标签 就可以，需要注意的是 函数里面的链接 冒号前面需要添加反斜杠\进行转义
   winbox.body.innerHTML = `
@@ -409,17 +440,17 @@ function createWinbox() {
     </p>
 	</center>
 
-  <h2>1. 二次元</h2>
-  <details class="folding-tag" cyan><summary> 查看二次元背景 </summary>
+  <h2>1. 风景</h2>
+  <details class="folding-tag" cyan><summary> 查看风景背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.ladydaily.com/img/home_bg.webp)" class="imgbox" onclick="changeBg('url(https\://sourcebucket.s3.ladydaily.com/img/home_bg.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://www.dmoe.cc/random.php)" class="imgbox" onclick="changeBg('url(https://www.dmoe.cc/random.php)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://api.ixiaowai.cn/api/api.php)" class="imgbox" onclick="changeBg('url(https://api.ixiaowai.cn/api/api.php)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://api.mtyqx.cn/tapi/random.php)" class="imgbox" onclick="changeBg('url(https://api.mtyqx.cn/tapi/random.php)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn.seovx.com/d/?mom=302" class="imgbox" onclick="changeBg('url(https://cdn.seovx.com/d/?mom=302)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.ladydaily.com/img/fj1.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.ladydaily.com/img/fj1.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://tuchuang.voooe.cn/images/2023/02/17/4ea1221c-78f0-4952-a3c6-f16acb33b57f.jpg)" class="imgbox" onclick="changeBg('url(https://tuchuang.voooe.cn/images/2023/02/17/4ea1221c-78f0-4952-a3c6-f16acb33b57f.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://tuchuang.voooe.cn/images/2023/02/17/follow.png)" class="imgbox" onclick="changeBg('url(https://tuchuang.voooe.cn/images/2023/02/17/follow.png)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://tuchuang.voooe.cn/images/2023/02/17/darkmodepicture70.jpg)" class="imgbox" onclick="changeBg('url(https://tuchuang.voooe.cn/images/2023/02/17/darkmodepicture70.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://tuchuang.voooe.cn/images/2023/02/17/170341-15534182211404-1.jpg)" class="imgbox" onclick="changeBg('url(https://tuchuang.voooe.cn/images/2023/02/17/170341-15534182211404-1.jpg)')"></a></div>
               </div>
             </details>
 
-  <h2>2. 风景</h2>
-  <details class="folding-tag" cyan><summary> 查看风景背景 </summary>
+  <h2>2. 二次元</h2>
+  <details class="folding-tag" cyan><summary> 查看二次元背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.ladydaily.com/img/fj1.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.ladydaily.com/img/fj1.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.ladydaily.com/img/home_bg.webp)" class="imgbox" onclick="changeBg('url(https\://sourcebucket.s3.ladydaily.com/img/home_bg.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://imgs.zhouenpei0523.top/i/2023/01/13/lzjcmy-2.jpg" class="imgbox" onclick="changeBg('url(https://imgs.zhouenpei0523.top/i/2023/01/13/lzjcmy-2.jpg)')"></a><a id="yinghuaBox" rel="noopener external nofollow" style="background-image:url(https://www.dmoe.cc/random.php)" class="box apiBox" onclick="changeBg('url(https://www.dmoe.cc/random.php)')"></a><a id="xiaowaierBox" rel="noopener external nofollow" style="background-image:url(https://api.ixiaowai.cn/api/api.php)" class="box apiBox" onclick="changeBg('url(https://api.ixiaowai.cn/api/api.php)')"></a><a id="motianyiBox" rel="noopener external nofollow" style="background-image:url(https://api.mtyqx.cn/tapi/random.php)" class="box apiBox" onclick="changeBg('url(https://api.mtyqx.cn/tapi/random.php)')"></a></div>
               </div>
             </details>
 
@@ -433,14 +464,14 @@ function createWinbox() {
   <h2>4. 渐变色</h2>
   <details class="folding-tag" cyan><summary> 查看渐变色背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to top, #355c7d, #6c5b7b, #c06c84)" onclick="changeBg('linear-gradient(to top, #355c7d, #6c5b7b, #c06c84)')"></a><a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #eecda3, #ef629f)" onclick="changeBg('linear-gradient(to right, #eecda3, #ef629f)')"></a><a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(90deg,rgba(247,149,51,.1) 0,rgba(243,112,85,.1) 15%,rgba(239,78,123,.1) 30%,rgba(161,102,171,.1) 44%,rgba(80,115,184,.1) 58%,rgba(16,152,173,.1) 72%,rgba(7,179,155,.1) 86%,rgba(109,186,130,.1) 100%)" onclick="changeBg('linear-gradient(90deg,rgba(247,149,51,.1) 0,rgba(243,112,85,.1) 15%,rgba(239,78,123,.1) 30%,rgba(161,102,171,.1) 44%,rgba(80,115,184,.1) 58%,rgba(16,152,173,.1) 72%,rgba(7,179,155,.1) 86%,rgba(109,186,130,.1) 100%)')"></a><a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #005f58, #00205a)" onclick="changeBg('linear-gradient(to right, #005f58, #00205a)')"></a><a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(-225deg, #B7F8DB 0%, #50A7C2 100%)" onclick="changeBg('linear-gradient(-225deg, #B7F8DB 0%, #50A7C2 100%)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to top, #355c7d, #6c5b7b, #c06c84)" onclick="changeBg('linear-gradient(to top, #355c7d, #6c5b7b, #c06c84)')"></a><a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #eecda3, #ef629f)" onclick="changeBg('linear-gradient(to right, #eecda3, #ef629f)')"></a><a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(90deg,rgba(247,149,51,.1) 0,rgba(243,112,85,.1) 15%,rgba(239,78,123,.1) 30%,rgba(161,102,171,.1) 44%,rgba(80,115,184,.1) 58%,rgba(16,152,173,.1) 72%,rgba(7,179,155,.1) 86%,rgba(109,186,130,.1) 100%)" onclick="changeBg('linear-gradient(90deg,rgba(247,149,51,.1) 0,rgba(243,112,85,.1) 15%,rgba(239,78,123,.1) 30%,rgba(161,102,171,.1) 44%,rgba(80,115,184,.1) 58%,rgba(16,152,173,.1) 72%,rgba(7,179,155,.1) 86%,rgba(109,186,130,.1) 100%)')"></a><a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #005f58, #00205a)" onclick="changeBg('linear-gradient(to right, #005f58, #00205a)')"></a><a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(-225deg, #B7F8DB 0%, #50A7C2 100%)" onclick="changeBg('linear-gradient(-225deg, #B7F8DB 0%, #50A7C2 100%)')"></a><a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(135deg,#f02fc2,#6094ea)" onclick="changeBg('linear-gradient(135deg,#f02fc2,#6094ea)')"></a><a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(135deg,#c6ffdd,#fbd786,#f7797d)" onclick="changeBg('linear-gradient(135deg,#c6ffdd,#fbd786,#f7797d)')"></a></div>
               </div>
             </details>
 
   <h2>5. 纯色</h2>
   <details class="folding-tag" cyan><summary> 查看纯色背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #7D9D9C" onclick="changeBg('#7D9D9C')"></a><a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #000000ab" onclick="changeBg('#000000ab')"></a><a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #ededed" onclick="changeBg('#ededed')"></a><a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #00aac3" onclick="changeBg('#00aac3')"></a><a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #f7eff5" onclick="changeBg('#f7eff5')"></a>  <input type="color" id="colors" href="javascript:;" rel="noopener external nofollow" class="box" autocomplete="on" value="#6dd5ed" oninput="changeBgColor()"></input></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #72c6ef" onclick="changeBg('#72c6ef')"></a><a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #fbc7d4" onclick="changeBg('#fbc7d4')"></a><a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #9796f0" onclick="changeBg('#9796f0')"></a><a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #faaca8" onclick="changeBg('#faaca8')"></a><a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #fdeb71" onclick="changeBg('#fdeb71')"></a>  <input type="color" id="colors" href="javascript:;" rel="noopener external nofollow" class="box" autocomplete="on" value="#ea6060" oninput="changeBgColor()"></input></div>
               </div>
             </details>
 
@@ -454,7 +485,7 @@ function createWinbox() {
   <h2>7. 随机壁纸API</h2>
   <details class="folding-tag" cyan><summary> 查看热门壁纸API系列背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a id="bingDayBox" rel="noopener external nofollow" style="background-image:url(https://bing.img.run/m.php)" class="box apiBox" onclick="changeBg('url(https://bing.img.run/m.php)')"></a><a id="bingHistoryBox" rel="noopener external nofollow" style="background-image:url(https://bing.img.run/rand_m.php)" class="box apiBox" onclick="changeBg('url(https://bing.img.run/rand_m.php)')"></a><a id="EEEDogBox" rel="noopener external nofollow" style="background-image:url(https://api.yimian.xyz/img?type=moe&size=1920x1080)" class="box apiBox" onclick="changeBg('url(https://api.yimian.xyz/img?type=moe&size=1920x1080)')"></a><a id="seovxBox" rel="noopener external nofollow" style="background-image:url(https://cdn.seovx.com/?mom=302)" class="box apiBox" onclick="changeBg('url(https://cdn.seovx.com/?mom=302)')"></a><a id="picsumBox" rel="noopener external nofollow" style="background-image:url(https://picsum.photos/1920/1080.webp)" class="box apiBox" onclick="changeBg('url(https://picsum.photos/1920/1080.webp)')"></a><a id="waiBizhiBox" rel="noopener external nofollow" style="background-image:url(https://api.ixiaowai.cn/gqapi/gqapi.php)" class="box apiBox" onclick="changeBg('url(https://api.ixiaowai.cn/gqapi/gqapi.php)')"></a><a id="btstuBox" rel="noopener external nofollow" style="background-image:url(https://api.btstu.cn/sjbz/api.php)" class="box apiBox" onclick="changeBg('url(https://api.btstu.cn/sjbz/api.php)')"></a><a id="unsplashBox" rel="noopener external nofollow" style="background-image:url(https://source.unsplash.com/random/1920x1080/)" class="box apiBox" onclick="changeBg('url(https://source.unsplash.com/random/1920x1080/)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://api.aagtool.top/api/sjtp?type=json&image=all)" class="box apiBox" onclick="changeBg('url(https://api.aagtool.top/api/sjtp?type=json&image=all)')"></a>
+              <div class="bgbox"><a id="bingDayBox" rel="noopener external nofollow" style="background-image:url(https://api.iculture.cc/api/bing)" class="box apiBox" onclick="changeBg('url(https://api.iculture.cc/api/bing)')"></a><a id="bingHistoryBox" rel="noopener external nofollow" style="background-image:url(https://bing.img.run/rand_m.php)" class="box apiBox" onclick="changeBg('url(https://bing.img.run/rand_m.php)')"></a><a id="EEEDogBox" rel="noopener external nofollow" style="background-image:url(https://api.yimian.xyz/img?type=moe&size=1920x1080)" class="box apiBox" onclick="changeBg('url(https://api.yimian.xyz/img?type=moe&size=1920x1080)')"></a><a id="seovxBox" rel="noopener external nofollow" style="background-image:url(https://cdn.seovx.com/?mom=302)" class="box apiBox" onclick="changeBg('url(https://cdn.seovx.com/?mom=302)')"></a><a id="picsumBox" rel="noopener external nofollow" style="background-image:url(https://picsum.photos/1920/1080.webp)" class="box apiBox" onclick="changeBg('url(https://picsum.photos/1920/1080.webp)')"></a><a id="waiBizhiBox" rel="noopener external nofollow" style="background-image:url(https://api.ixiaowai.cn/gqapi/gqapi.php)" class="box apiBox" onclick="changeBg('url(https://api.ixiaowai.cn/gqapi/gqapi.php)')"></a><a id="btstuBox" rel="noopener external nofollow" style="background-image:url(https://api.btstu.cn/sjbz/api.php)" class="box apiBox" onclick="changeBg('url(https://api.btstu.cn/sjbz/api.php)')"></a><a id="unsplashBox" rel="noopener external nofollow" style="background-image:url(https://source.unsplash.com/random/1920x1080/)" class="box apiBox" onclick="changeBg('url(https://source.unsplash.com/random/1920x1080/)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://api.aagtool.top/api/sjtp?type=json&image=all)" class="box apiBox" onclick="changeBg('url(https://api.aagtool.top/api/sjtp?type=json&image=all)')"></a>
               </div>
             </details>
 
@@ -472,6 +503,18 @@ function createWinbox() {
   </div>
   </div>
 `;
+}
+
+// 恢复默认背景
+function resetBg() {
+  localStorage.removeItem('blogbg');
+  reload();
+}
+
+// 恢复默认设置并刷新页面
+function reset() {
+  clearItem();
+  reload();
 }
 
 // 适应窗口大小
