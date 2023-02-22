@@ -1429,7 +1429,7 @@ h6::before {
   --anzhiyu-pink: #ff7c7c;
   --anzhiyu-green: #57bd6a;
   --anzhiyu-fontcolor: #363636;
-  --anzhiyu-background: linear-gradient(135deg,#72c6ef 40%,#004e8f 100%);
+  --anzhiyu-background: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);
   --anzhiyu-reverse: #000;
   --anzhiyu-maskbg: rgba(255, 255, 255, 0.6);
   --anzhiyu-maskbgdeep: rgba(255, 255, 255, 0.85);

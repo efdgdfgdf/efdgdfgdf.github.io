@@ -6513,7 +6513,6 @@ blockquote.pullquote.right {
 #web_bg ~ .page:has(#about-page) {
   background: var(--anzhiyu-background);
 }
-
 #about-page .author-box {
   position: relative;
 }
@@ -6522,6 +6521,7 @@ blockquote.pullquote.right {
   align-items: center;
   margin: 0 0 16px 0;
 }
+
 #about-page .author-box .author-img {
     margin: auto;
     border-radius: 50%;
@@ -6542,7 +6542,7 @@ blockquote.pullquote.right {
   background: #6bdf8f;
   position: absolute;
   border-radius: 50%;
-  border: 6px solid var(--anzhiyu-background);
+  border: 6px solid #fff;
   top: 50%;
   left: 50%;
   transform: translate(45px, 45px);
@@ -6663,7 +6663,7 @@ blockquote.pullquote.right {
 #about-page .about-statistic {
   min-height: 380px;
   width: 39%;
-  background: url(https://img02.anzhiy.cn/adminuploads/1/2022/09/23/632d634f8376d.jpg) no-repeat top;
+  background: url(https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&cs=tinysrgb&w=600) no-repeat top;
   background-size: cover;
   color: var(--anzhiyu-white);
   overflow: hidden;
@@ -6687,6 +6687,10 @@ blockquote.pullquote.right {
   display: flex;
   flex-direction: column;
   padding: 1rem 2rem;
+}
+
+.author-content-item.single strong {
+  color: #f2b94b;
 }
 
 .author-content-item .card-content .author-content-item-title {
@@ -6811,7 +6815,7 @@ blockquote.pullquote.right {
   transition: transform 2s ease-out !important;
 }
 .author-content-item.myphoto:hover img {
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
 .author-content-item:hover .card-background-icon {
   transform: rotate(20deg);
@@ -7159,7 +7163,7 @@ blockquote.pullquote.right {
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
-  background: linear-gradient(120deg, #fad7a1 0, #e96d71 100%);
+  background:  linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
   color: var(--anzhiyu-white);
   background-size: 200%;
   animation: gradient 15s ease infinite;
@@ -7182,11 +7186,11 @@ blockquote.pullquote.right {
   position: absolute;
   right: 0;
   bottom: -40%;
-  transform: rotate(30deg);
+  transform: rotate(150deg);
   transition: 2s ease-in-out;
 }
 .author-content-item.game-yuanshen {
-  background: url(https://img1.imgtp.com/2023/02/11/bfRgRwQK.png) no-repeat top;
+  background: url(https://img1.imgtp.com/2023/02/21/rvq2dVxN.jpg) no-repeat top;
   background-size: cover;
   min-height: 300px;
   overflow: hidden;
@@ -7206,13 +7210,16 @@ blockquote.pullquote.right {
 }
 .author-content-item .content-bottom .icon-group i {
   display: inline-block;
-  width: 143px;
+  width: 22px; /*143px*/
   height: 18px;
   margin-right: 0.5rem;
 }
-.icon-pos-mid {
+/* .icon-pos-mid {
   background: url(https://img02.anzhiy.cn/adminuploads/1/2022/09/25/632fb9cecfc8c.png);
-}
+} */
+.icon-pos-sup { background: url("https://cdn.jayhrn.com/img/page/icon-pos-sup.png"); }
+.icon-pos-mid { background: url("https://cdn.jayhrn.com/img/page/icon-pos-mid.png"); }
+
 .author-content-item.game-yuanshen::after {
   box-shadow: 0 -69px 203px 11px #575d8b inset;
   position: absolute;
@@ -7242,14 +7249,14 @@ blockquote.pullquote.right {
 }
 
 .author-content-item.like-technology {
-  background: url(https://img02.anzhiy.cn/adminuploads/1/2022/09/24/632f0dd8f33c6.webp) no-repeat;
+  background: url(https://images.pexels.com/photos/2582932/pexels-photo-2582932.jpeg?auto=compress&cs=tinysrgb&w=600) no-repeat;
   background-size: cover;
   min-height: 230px;
   color: var(--anzhiyu-white);
 }
 
 .author-content-item.like-music {
-  background: url(https://p2.music.126.net/Mrg1i7DwcwjWBvQPIMt_Mg==/79164837213438.jpg) no-repeat top;
+  background: url(https://images.pexels.com/photos/1389429/pexels-photo-1389429.jpeg?auto=compress&cs=tinysrgb&w=1600) no-repeat top;
   background-size: cover;
   min-height: 400px;
   color: var(--anzhiyu-white);
@@ -7444,14 +7451,27 @@ blockquote.pullquote.right {
   align-items: flex-start;
 }
 
+@media screen and (max-width: 768px) {
+  #about-page .author-tag-left,#about-page .author-tag-right {
+    display: none;
+  }
+}
+
 #about-page .author-tag-left .author-tag:first-child, #about-page .author-tag-left .author-tag:last-child {
-  margin-right: 10px;
+  margin-right: -16px;
 }
 
 #about-page .author-tag-right .author-tag:first-child, #about-page .author-tag-right .author-tag:last-child {
-  margin-left: 10px;
+  margin-left: -16px;
 }
 
+/* 框架介绍列表 */
+ul, li {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
 .author-content-item.careers {
     min-height: 400px;
   }
