@@ -6613,7 +6613,7 @@ blockquote.pullquote.right {
   font-family: Helvetica;
   line-height: 1.06;
   letter-spacing: -0.02em;
-  color: var(--font-color);
+  color: #425aef;
   margin-top: 0;
 }
 
@@ -6775,7 +6775,7 @@ blockquote.pullquote.right {
   border-radius: 20px !important;
 }
 .author-content-item.personalities {
-  background-color: #bce8eb;
+  background: linear-gradient(135deg,#a1ffce,#faffd1);
   position: relative;
   width: 59%;
 }
@@ -7136,7 +7136,7 @@ blockquote.pullquote.right {
   font-size: 36px;
   font-weight: 900;
   line-height: 1.1;
-  background: linear-gradient(140deg, #83a4d4 0, #b6fbff 100%);
+  background: linear-gradient(135deg,#2980b9,#6dd5fa,#ffffff);
   background-size: 200%;
   animation: gradient 15s ease infinite;
   display: flex;
@@ -7232,11 +7232,11 @@ blockquote.pullquote.right {
 
 .author-content-item.comic-content {
   width: 39%;
-  background: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/violet.jpg) no-repeat top;
+  background: url(https://wework.qpic.cn/wwpic/983351_-tkZaMJOQS-sn6R_1655832294/0) no-repeat top;
   background-size: cover;
   min-height: 300px;
   overflow: hidden;
-  color: violet;
+  color: #29323c;
 }
 .author-content-item.comic-content::after {
   box-shadow: 0 -48px 203px 11px #fbe9b8 inset;
@@ -7463,14 +7463,6 @@ blockquote.pullquote.right {
 
 #about-page .author-tag-right .author-tag:first-child, #about-page .author-tag-right .author-tag:last-child {
   margin-left: -16px;
-}
-
-/* 框架介绍列表 */
-ul, li {
-  list-style: none;
-  display: block;
-  margin: 0;
-  padding: 0;
 }
 .author-content-item.careers {
     min-height: 400px;
