@@ -7190,7 +7190,7 @@ blockquote.pullquote.right {
   transition: 2s ease-in-out;
 }
 .author-content-item.game-yuanshen {
-  background: url(https://img1.imgtp.com/2023/02/21/rvq2dVxN.jpg) no-repeat top;
+  background: url(https://tuchuang.voooe.cn/images/2023/02/25/image.png) no-repeat top;
   background-size: cover;
   min-height: 300px;
   overflow: hidden;
@@ -7221,7 +7221,7 @@ blockquote.pullquote.right {
 .icon-pos-mid { background: url("https://cdn.jayhrn.com/img/page/icon-pos-mid.png"); }
 
 .author-content-item.game-yuanshen::after {
-  box-shadow: 0 -69px 203px 11px #575d8b inset;
+  box-shadow: 0 -69px 203px 11px #f38181 inset;
   position: absolute;
   content: "";
   width: 100%;
@@ -7464,6 +7464,180 @@ blockquote.pullquote.right {
 #about-page .author-tag-right .author-tag:first-child, #about-page .author-tag-right .author-tag:last-child {
   margin-left: -16px;
 }
+
+.about-reward {
+  position: absolute;
+  top: 1rem;
+  right: 2rem
+}
+
+@media screen and (max-width: 768px) {
+  .reward .about-reward #con {
+      width:170px
+  }
+
+  .reward #tube-con {
+      display: none
+  }
+}
+
+.reward #con {
+  width: 350px;
+  height: 85px;
+  position: relative;
+  border-radius: 4px
+}
+
+.reward #TA-con {
+  width: 157px;
+  height: 50px;
+  background-color: #f25d8e;
+  box-shadow: 0 4px 4px rgba(255,112,159,.3);
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  border-radius: 4px;
+  cursor: pointer
+}
+
+.reward #text-con {
+  width: 100px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative
+}
+
+.reward #linght {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 36%;
+  left: 4px;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 10px;
+  border-top: 10px solid #fff;
+  border-radius: 4px;
+  transform: rotate(-55deg)
+}
+
+.reward #linght::after {
+  position: absolute;
+  top: -13px;
+  left: -11px;
+  content: "";
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 10px;
+  border-top: 10px solid #fff;
+  transform: rotate(180deg);
+  border-radius: 4px
+}
+
+.reward #TA {
+  float: right;
+  line-height: 50px;
+  font-size: 15px;
+  color: #fff
+}
+
+.reward #TA-con:hover {
+  background-color: #ff6b9a
+}
+
+.reward #tube-con {
+  width: 157px;
+  height: 55px;
+  position: absolute;
+  right: -5px;
+  top: 15px
+}
+
+.reward svg {
+  width: 100%;
+  height: 100%
+}
+
+.reward #mask {
+  width: 0;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .5s
+}
+
+.reward #mask svg {
+  width: 157px;
+  height: 55px
+}
+
+.reward #TA-con:hover+#tube-con>#mask {
+  width: 157px
+}
+
+.reward #TA-con:hover+#tube-con>#orange-mask {
+  animation: move1 .5s linear .2s infinite
+}
+
+.reward #TA-con:hover+#tube-con>#orange-mask svg {
+  animation: movetwo .5s linear .2s infinite
+}
+
+.reward #orange-mask {
+  width: 18px;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  left: -15px;
+  top: 0
+}
+
+.reward #orange-mask svg {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: 157px;
+  height: 55px
+}
+
+@keyframes move1 {
+  0% {
+      left: -15px
+  }
+
+  100% {
+      left: 140px
+  }
+}
+
+@keyframes movetwo {
+  0% {
+      left: 15px
+  }
+
+  100% {
+      left: -140px
+  }
+}
+
+.reward #people {
+  position: absolute;
+  right: 10px;
+  top: 4px;
+  font-size: 12px;
+  font-family: "é›…é»‘";
+  color: #aaa
+}
+
+.reward #people>b {
+  color: #777
+}
+
 .author-content-item.careers {
     min-height: 400px;
   }
