@@ -1,1 +1,28 @@
-var now=new Date;function createtime(){now.setTime(now.getTime()+1e3);var e=new Date("01/01/2023 00:00:00"),t=(now-e)/1e3/60/60/24,i=Math.floor(t),a=(now-e)/1e3/60/60-24*i,o=Math.floor(a);1==String(o).length&&(o="0"+o);var r=(now-e)/1e3/60-1440*i-60*o,n=Math.floor(r);1==String(n).length&&(n="0"+n);var s=(now-e)/1e3-86400*i-3600*o-60*n,l=Math.round(s);1==String(l).length&&(l="0"+l);let m="";m=o<18&&o>=9?`<img class='boardsign' src='http://img.shields.io/badge/上班啦-本站正在营业中☃️-28c76f?style=social&logo=foodpanda' title='经典上班摸鱼睡觉🐟'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${i} 天 ${o} 小时 ${n} 分 ${l} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀   <br><a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">本网站由<img src="https://img1.imgtp.com/2023/02/11/c8cBOhI0.png" width="45px" />提供CDN加速/云存储服务</a></div> `:`<img class='boardsign' src='http://img.shields.io/badge/下班啦-乐享生活💝-red?style=social&logo=Buy Me A Coffee' title='下班不积极，思想有问题~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${i} 天 ${o} 小时 ${n} 分 ${l} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i>   <br><a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">本网站由<img src="https://img1.imgtp.com/2023/02/11/c8cBOhI0.png" width="45px" />提供CDN加速/云存储服务</a></div>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=m)}setInterval((()=>{createtime()}),1e3);
+var now = new Date();
+function createtime() {
+  // 当前时间
+  now.setTime(now.getTime() + 1000);
+  var grt = new Date("01/01/2023 00:00:00");	// 网站诞生时间
+  var days = (now - grt) / 1e3 / 60 / 60 / 24,
+    dnum = Math.floor(days),
+    hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,
+    hnum = Math.floor(hours);
+  1 == String(hnum).length && (hnum = "0" + hnum);
+  var minutes = (now - grt) / 1e3 / 60 - 1440 * dnum - 60 * hnum,
+    mnum = Math.floor(minutes);
+  1 == String(mnum).length && (mnum = "0" + mnum);
+  var seconds = (now - grt) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum,
+    snum = Math.round(seconds);
+  1 == String(snum).length && (snum = "0" + snum);
+  let currentTimeHtml = "";
+  (currentTimeHtml =
+    hnum < 18 && hnum >= 9
+    ? `<img class='boardsign' src='http://img.shields.io/badge/上班啦-本站正在营业中☃️-28c76f?style=social&logo=foodpanda' title='经典上班摸鱼睡觉🐟'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀   <br><a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">本网站由<img src="https://img1.imgtp.com/2023/02/11/c8cBOhI0.png" width="45px" />提供CDN加速/云存储服务</a></div> `
+    : `<img class='boardsign' src='http://img.shields.io/badge/下班啦-乐享生活💝-red?style=social&logo=Buy Me A Coffee' title='下班不积极，思想有问题~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i>   <br><a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">本网站由<img src="https://img1.imgtp.com/2023/02/11/c8cBOhI0.png" width="45px" />提供CDN加速/云存储服务</a></div>`),
+    document.getElementById("workboard") &&
+    (document.getElementById("workboard").innerHTML = currentTimeHtml);
+}
+// 设置重复执行函数，周期1000ms
+setInterval(() => {
+  createtime();
+}, 1000);
