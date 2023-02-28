@@ -287,6 +287,7 @@ img {
 }
 
 
+/***************************** 即刻短文壁纸css *****************************/
 #album_detail .album-container-img {
   display: flex;
   align-items: center;
@@ -307,3 +308,27 @@ img {
 #album_detail .album-container-img .album-content-noimg {
   width: calc(100% / 2 - 5px);
 }
+/***************************** 即刻短文壁纸css *****************************/
+
+/***************************** 即刻短文视频css *****************************/
+a.bber-content-video video {
+  border-radius: 4px;
+  max-width: 100%;
+  width: 7rem;
+  transition: all 0.28s ease;
+  -moz-transition: all 0.28s ease;
+  -webkit-transition: all 0.28s ease;
+  -o-transition: all 0.28s ease;
+}
+a.bber-content-video video:hover {
+  box-shadow: 0 4px 8px 0px rgb(0 0 0 / 24%), 0 8px 16px 0px rgb(0 0 0 / 24%);
+}
+#bber .bber-container-video {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 0.3rem;
+}
+/***************************** 即刻短文视频css *****************************/

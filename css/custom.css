@@ -1707,7 +1707,6 @@ input#pic-link {
   right: 15px;
 }
 
-
 /* 一级菜单居中 */
 #nav .menus_items {
   position: absolute !important;
@@ -1800,6 +1799,22 @@ div#menus {
   background: #212121;
 }   
 
+
+/* 居中 */
+.nav-fixed #nav{
+  transform: translateY(58px)!important;
+  -webkit-transform: translateY(58px)!important;
+  -moz-transform: translateY(58px)!important;
+  -ms-transform: translateY(58px)!important;
+  -o-transform: translateY(58px)!important;
+}
+#nav{
+  transition: none!important;
+  -webkit-transition: none!important;
+  -moz-transition: none!important;
+  -ms-transition: none!important;
+  -o-transition: none!important;
+}
 /* 导航栏显示标题 */
 #page-name::before {
   font-size: 18px;
