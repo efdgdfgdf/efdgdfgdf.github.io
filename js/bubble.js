@@ -1,6 +1,6 @@
 // 气泡特效
-$(".author-content.author-content-item.single").append('<canvas id="header_canvas" style="position:absolute;bottom:0" width="844" height="346">'),
-$(".author-content.author-content-item.single").parent().attr("class", "thumbnail_canvas"),
+$("#essay_page .author-content.author-content-item.single").append('<canvas id="header_canvas" style="position:absolute;bottom:0" width="844" height="346">'),
+$("#essay_page .author-content.author-content-item.single").parent().attr("class", "thumbnail_canvas"),
 function() {
     var t, e, n, o, h, i = !0;
     if (t = document.getElementById("header_canvas"),
