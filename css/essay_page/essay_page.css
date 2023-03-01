@@ -30,7 +30,6 @@
 img {
   max-width: 100%;
   border-radius: 12px;
-  margin: 5px 0;
   transition: all 0.2s ease 0s;
   object-fit: cover;
 }

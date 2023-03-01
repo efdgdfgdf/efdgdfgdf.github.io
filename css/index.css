@@ -1408,7 +1408,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(https://tuchuang.voooe.cn/images/2023/02/14/wallhaven-289op65ca7ffc1100007c1.jpg);
+  background: url(https://tuchuang.voooe.cn/images/2023/03/01/28eb6dc0b4594f7e9bcdfec350f80235-1.jpg);
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -4839,6 +4839,21 @@ h1.page-title + .tag-cloud-list {
     display: none;
   }
 }
+#rightside #go-up .scroll-percent {
+  display: none;
+}
+#rightside #go-up.show-percent .scroll-percent {
+  display: block;
+}
+#rightside #go-up.show-percent .scroll-percent + i {
+  display: none;
+}
+#rightside #go-up:hover .scroll-percent {
+  display: none;
+}
+#rightside #go-up:hover .scroll-percent + i {
+  display: block;
+}
 #sidebar #menu-mask {
   position: fixed;
   z-index: 102;
@@ -5183,6 +5198,29 @@ span.mathjax-overflow {
 }
 .snackbar-css {
   border-radius: 5px !important;
+}
+[data-theme="dark"] #web_bg {
+  background: url(https://tuchuang.voooe.cn/images/2023/03/01/2735222ab464469ba3994504ecb9bbac-1.jpg);
+  background-attachment: local;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 800px) {
+  #web_bg {
+    background: url(https://tuchuang.voooe.cn/images/2023/03/01/image.png) !important;
+    background-attachment: local !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+  [data-theme="dark"] #web_bg {
+    background: url(https://pic2.zhimg.com/80/v2-593cc0e09e0f1f7caafe01b99a25c0d1_1440w.webp) !important;
+    background-attachment: local !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
 }
 #article-container .btn-center {
   margin: 0 0 20px;
