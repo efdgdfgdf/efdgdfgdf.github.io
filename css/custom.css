@@ -1738,7 +1738,7 @@ input#pic-link {
 
 /* 导航栏渐变 */
 #page-header.nav-fixed #nav {
-  background: linear-gradient(135deg,#e0eafc,#cfdef3);
+  background: linear-gradient(135deg,#c9d6ff,#e2e2e2);
   opacity: .95;
   backdrop-filter: var(--backdrop-filter);
 }
@@ -1757,11 +1757,15 @@ div#menus {
 }
 #page-header #nav .nav-button a {
   height: 35px;
-  width: 35px;
+  width: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+#nav #search-button {
+  font-size: 1.3em;
+}
+
 #page-header #nav #menus .nav-button.long a.totopbtn,
 #page-header #nav #menus .nav-button.long,
 #page-header #nav #menus .nav-button.long a.totopbtn span {
@@ -1814,13 +1818,6 @@ div#menus {
   -moz-transition: none!important;
   -ms-transition: none!important;
   -o-transition: none!important;
-}
-#nav-right{
-  flex:1 1 auto;
-  justify-content: flex-end;
-  margin-left: auto;
-  display: flex;
-  flex-wrap:nowrap;
 }
 /* 导航栏显示标题 */
 #page-name::before {
