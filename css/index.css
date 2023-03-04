@@ -2677,7 +2677,7 @@ figure.highlight pre .javascript .function {
 .justified-gallery > figure > a > svg {
   position: static !important;
 }
-.site-card-group {
+.volantis-flink-list {
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
