@@ -1502,7 +1502,7 @@ h6::before {
   background: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
 }
 [data-theme="dark"] #web_bg ~ .page:has(.fcircle_page) {
-  background: linear-gradient(135deg,#000c40,#607d8b);
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 
 

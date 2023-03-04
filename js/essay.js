@@ -29,7 +29,47 @@ function essayScroll() {
 function replaceAll(e, n, t) {
   return e.split(n).join(t);
 }
+function anzhiyuScrollFn() {
+  var n = document.getElementById("waterfall");
+  window.anzhiyuScrollFnToDo = btf.throttle((function() {
+      n && (e = t % document.documentElement.clientHeight,
+      100 + e >= document.documentElement.clientHeight ? (console.info(e, document.documentElement.clientHeight),
+      setTimeout((function() {
+          waterfall("#waterfall")
+      }
+      ), 500)) : setTimeout((function() {
+          n && waterfall("#waterfall")
+      }
+      ), 500))
+  }
+  ), 48),
+  window.addEventListener("scroll", anzhiyuScrollFnToDo)
+}
 var anzhiyu = {
+  initIndexEssay: function() {
+    setTimeout((()=>{
+        let e = new Swiper(".essay_bar_swiper_container",{
+            passiveListeners: !0,
+            direction: "vertical",
+            loop: !0,
+            autoplay: {
+                disableOnInteraction: !0,
+                delay: 3e3
+            },
+            mousewheel: !0
+        })
+          , t = document.getElementById("bbtalk");
+        null !== t && (t.onmouseenter = function() {
+            e.autoplay.stop()
+        }
+        ,
+        t.onmouseleave = function() {
+            e.autoplay.start()
+        }
+        )
+    }
+    ), 100)
+  },
   diffDate: function (d, more = false) {
     const dateNow = new Date();
     const datePost = new Date(d);
@@ -91,25 +131,32 @@ var anzhiyu = {
       mediumZoom(document.querySelectorAll('[data-zoomable]'))
     }
   },
-  commentText: function (e) {
-    if (e == "undefined" || e == "null") e = "好棒！";
-    var n = document.getElementsByClassName("el-textarea__inner")[0],
-      t = document.createEvent("HTMLEvents");
-    if (!n) return;
-    t.initEvent("input", !0, !0);
-    var o = replaceAll(e, "\n", "\n> ");
-    (n.value = "> " + o + "\n\n"), n.dispatchEvent(t);
-    var i = document.querySelector("#post-comment").offsetTop;
-    window.scrollTo(0, i - 80),
-      n.focus(),
-      n.setSelectionRange(-1, -1),
-      document.getElementById("comment-tips") && document.getElementById("comment-tips").classList.add("show");
+  commentText: function(e) {
+    var t = document.querySelector("#post-comment").offsetTop;
+    window.scrollTo(0, t - 80),
+    "undefined" != e && "null" != e || (e = "好棒！"),
+    function t() {
+        setTimeout((()=>{
+            var n = document.getElementsByClassName("el-textarea__inner")[0];
+            n || t();
+            let l = document.createEvent("HTMLEvents");
+            l.initEvent("input", !0, !0);
+            let o = replaceAll(e, "\n", "\n> ");
+            n.value = "> " + o + "\n\n",
+            n.dispatchEvent(l),
+            n.focus(),
+            n.setSelectionRange(-1, -1),
+            document.getElementById("comment-tips") && document.getElementById("comment-tips").classList.add("show")
+        }
+        ), 100)
+    }()
   },
 };
-
+anzhiyu.initIndexEssay();
 anzhiyu.changeTimeInEssay();
 anzhiyu.changeTimeInAlbumDetail();
 anzhiyu.reflashEssayWaterFall();
+anzhiyuScrollFn();
 
 
 

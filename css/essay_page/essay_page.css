@@ -313,14 +313,14 @@ img {
 a.bber-content-video video {
   border-radius: 4px;
   max-width: 100%;
-  width: 7rem;
+  width: 100rem;
   transition: all 0.28s ease;
   -moz-transition: all 0.28s ease;
   -webkit-transition: all 0.28s ease;
   -o-transition: all 0.28s ease;
 }
 a.bber-content-video video:hover {
-  box-shadow: 0 4px 8px 0px rgb(0 0 0 / 24%), 0 8px 16px 0px rgb(0 0 0 / 24%);
+  box-shadow: 0 4px 8px 0px #536976, 0 8px 16px 0px #536976;
 }
 #bber .bber-container-video {
   display: flex;
