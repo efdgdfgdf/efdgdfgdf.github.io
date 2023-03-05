@@ -131,6 +131,52 @@ var anzhiyu = {
       mediumZoom(document.querySelectorAll('[data-zoomable]'))
     }
   },
+  setPostLike: function() {
+    var e = window.location.href
+      , t = e.slice(e.lastIndexOf("/") + 1)
+      , n = document.querySelector(".like-button")
+      , a = JSON.stringify({
+        postname: t
+    });
+    n && (n.disabled = !0);
+    var s = new XMLHttpRequest;
+    s.withCredentials = !0,
+    s.addEventListener("readystatechange", (function() {
+        if (1 != this.readyState && n && (n.disabled = !1),
+        4 === this.readyState) {
+            let e = JSON.parse(this.responseText);
+            e.status ? (document.querySelector(".like-button .fa-regular.fa-thumbs-up") && (document.querySelector(".like-button .fa-regular.fa-thumbs-up").innerHTML = "  " + e.msg),
+            void 0 !== GLOBAL_CONFIG.Snackbar && btf.snackbarShow("读者大大真好人！")) : void 0 !== GLOBAL_CONFIG.Snackbar && btf.snackbarShow("抱歉，点赞坏了。")
+        }
+    }
+    ))
+    // ,
+    // s.open("POST", "https://qexo.shineyu.cn/pub/set_postlike/"),
+    // s.setRequestHeader("Content-Type", "application/json"),
+    // s.send(a)
+  },
+  getPostLike: function() {
+    var e = window.location.href
+      , t = e.slice(e.lastIndexOf("/") + 1)
+      , n = document.querySelector(".like-button")
+      , a = JSON.stringify({
+        postname: t
+    });
+    n && (n.disabled = !0);
+    var s = new XMLHttpRequest;
+    s.withCredentials = !0,
+    s.addEventListener("readystatechange", (function() {
+        if (1 != this.readyState && n && (n.disabled = !1),
+        4 === this.readyState) {
+            let e = JSON.parse(this.responseText);
+            e.status ? document.querySelector(".like-button .fa-regular.fa-thumbs-up") && (document.querySelector(".like-button .fa-regular.fa-thumbs-up").innerHTML = "  " + e.msg) : document.querySelector(".like-button .fa-regular.fa-thumbs-up") && (document.querySelector(".like-button .fa-regular.fa-thumbs-up").innerHTML = " 点赞坏啦~")
+        }
+    }
+    )),
+    s.open("POST", "https://qexo.shineyu.cn/pub/get_postlike/"),
+    s.setRequestHeader("Content-Type", "application/json"),
+    s.send(a)
+  },
   commentText: function(e) {
     var t = document.querySelector("#post-comment").offsetTop;
     window.scrollTo(0, t - 80),
@@ -157,6 +203,7 @@ anzhiyu.changeTimeInEssay();
 anzhiyu.changeTimeInAlbumDetail();
 anzhiyu.reflashEssayWaterFall();
 anzhiyuScrollFn();
+anzhiyu.getPostLike();
 
 
 
