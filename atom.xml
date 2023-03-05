@@ -17,34 +17,6 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>个人网站开发</title>
-    <link href="https://www.dp2002.top/posts/1231/"/>
-    <id>https://www.dp2002.top/posts/1231/</id>
-    <published>2023-01-29T02:45:00.000Z</published>
-    <updated>2023-02-02T13:09:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="网站开发基础"><a href="#网站开发基础" class="headerlink" title="网站开发基础"></a>网站开发基础</h2><h4 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h4><p>域名、服务器、搭建网站环境。</p><h4 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h4><p>【1】WordPress（开源建站系统）<br>可用于建造个人博客，企业官网，电商平台<br>特点：傻瓜式、多主题、插件丰富。<br><a href="https://cn.wordpress.org/">https://cn.wordpress.org/</a></p><p>【2】docsify（文档站点生成器）<br>特点：使用简单，可装插件、响应式。<br><a href="https://docsify.js.org/#/">https://docsify.js.org/#/</a></p><p>【3】dumi（文档站点生成器）<br>适合项目、产品的官网<br>特点：使用简单，专为组件开发场景而生<br><a href="https://d.umijs.org/">https://d.umijs.org/</a></p><p>【4】imgcook<br>根据设计稿一键智能生成代码<br>特点：傻瓜式操作，随意修改，AI生成代码<br><a href="https://www.imgcook.com/">https://www.imgcook.com/</a></p><p>【5】ant design landing<br>网站首页生成器<br>特点：模板丰富，可视化编辑网页元素，可一键上传网站，不需要购买服务器、域名等。<br><a href="https://ant-design-landing.gitee.io/index-cn">https://ant-design-landing.gitee.io/index-cn</a></p><p>【6】TX兔小巢<br>产品反馈平台<br>特点：免费，一键生成网站反馈社区<br><a href="https://txc.qq.com/">https://txc.qq.com/</a></p><p>【7】百度统计<br>网站数据统计<br>特点：多场景统计分析，简单易用<br><a href="https://tongji.baidu.com/web/welcome/login">https://tongji.baidu.com/web/welcome/login</a></p><p>【8】Discuz Q<br>PC端开源社区软件<br>特点：开源，功能丰富<br><a href="https://discuz.chat/?categoryId=all&sequence=0">https://discuz.chat/?categoryId=all&amp;sequence=0</a></p><p>【9】tailwindcss<br>UI框架，提供现成具体好看的css样式，帮助我们快速构建现代化网站<br><a href="https://www.tailwindcss.cn/">https://www.tailwindcss.cn/</a></p><h2 id="班级网站需求分析"><a href="#班级网站需求分析" class="headerlink" title="班级网站需求分析"></a>班级网站需求分析</h2><p>根据调查，必须让同学们有收获，或者说有正反馈，这是能让同学们关注并使用网站的第一步。</p><ol><li>班级简介</li><li>班级通知、布置作业、课程表</li><li>留言板（提建议）</li><li>班级事迹、文体活动</li><li>思想建设</li><li>新鲜事</li><li>友情链接（学校网站、好用的工具）</li><li>学校风光</li><li>设置一个点歌的小插件，最好能听一些付费的歌曲。</li><li>百度搜索功能</li><li>时间显示功能</li><li>计算综测分</li><li>点名统计</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;网站开发基础&quot;&gt;&lt;a href=&quot;#网站开发基础&quot; class=&quot;headerlink&quot; title=&quot;网站开发基础&quot;&gt;&lt;/a&gt;网站开发基础&lt;/h2&gt;&lt;h4 id=&quot;基础知识&quot;&gt;&lt;a href=&quot;#基础知识&quot; class=&quot;headerlink&quot; title=&quot;基</summary>
-      
-    
-    
-    
-    <category term="网站开发" scheme="https://www.dp2002.top/categories/%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91/"/>
-    
-    
-    <category term="计算机专业" scheme="https://www.dp2002.top/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A/"/>
-    
-    <category term="网站必备" scheme="https://www.dp2002.top/tags/%E7%BD%91%E7%AB%99%E5%BF%85%E5%A4%87/"/>
-    
-    <category term="搭建个人网站" scheme="https://www.dp2002.top/tags/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Python基础知识</title>
     <link href="https://www.dp2002.top/posts/f1a5/"/>
     <id>https://www.dp2002.top/posts/f1a5/</id>
@@ -156,6 +128,34 @@
     <category term="TCP/IP" scheme="https://www.dp2002.top/tags/TCP-IP/"/>
     
     <category term="HTTP" scheme="https://www.dp2002.top/tags/HTTP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>个人网站开发</title>
+    <link href="https://www.dp2002.top/posts/1231/"/>
+    <id>https://www.dp2002.top/posts/1231/</id>
+    <published>2023-01-29T02:45:00.000Z</published>
+    <updated>2023-02-02T13:09:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="网站开发基础"><a href="#网站开发基础" class="headerlink" title="网站开发基础"></a>网站开发基础</h2><h4 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h4><p>域名、服务器、搭建网站环境。</p><h4 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h4><p>【1】WordPress（开源建站系统）<br>可用于建造个人博客，企业官网，电商平台<br>特点：傻瓜式、多主题、插件丰富。<br><a href="https://cn.wordpress.org/">https://cn.wordpress.org/</a></p><p>【2】docsify（文档站点生成器）<br>特点：使用简单，可装插件、响应式。<br><a href="https://docsify.js.org/#/">https://docsify.js.org/#/</a></p><p>【3】dumi（文档站点生成器）<br>适合项目、产品的官网<br>特点：使用简单，专为组件开发场景而生<br><a href="https://d.umijs.org/">https://d.umijs.org/</a></p><p>【4】imgcook<br>根据设计稿一键智能生成代码<br>特点：傻瓜式操作，随意修改，AI生成代码<br><a href="https://www.imgcook.com/">https://www.imgcook.com/</a></p><p>【5】ant design landing<br>网站首页生成器<br>特点：模板丰富，可视化编辑网页元素，可一键上传网站，不需要购买服务器、域名等。<br><a href="https://ant-design-landing.gitee.io/index-cn">https://ant-design-landing.gitee.io/index-cn</a></p><p>【6】TX兔小巢<br>产品反馈平台<br>特点：免费，一键生成网站反馈社区<br><a href="https://txc.qq.com/">https://txc.qq.com/</a></p><p>【7】百度统计<br>网站数据统计<br>特点：多场景统计分析，简单易用<br><a href="https://tongji.baidu.com/web/welcome/login">https://tongji.baidu.com/web/welcome/login</a></p><p>【8】Discuz Q<br>PC端开源社区软件<br>特点：开源，功能丰富<br><a href="https://discuz.chat/?categoryId=all&sequence=0">https://discuz.chat/?categoryId=all&amp;sequence=0</a></p><p>【9】tailwindcss<br>UI框架，提供现成具体好看的css样式，帮助我们快速构建现代化网站<br><a href="https://www.tailwindcss.cn/">https://www.tailwindcss.cn/</a></p><h2 id="班级网站需求分析"><a href="#班级网站需求分析" class="headerlink" title="班级网站需求分析"></a>班级网站需求分析</h2><p>根据调查，必须让同学们有收获，或者说有正反馈，这是能让同学们关注并使用网站的第一步。</p><ol><li>班级简介</li><li>班级通知、布置作业、课程表</li><li>留言板（提建议）</li><li>班级事迹、文体活动</li><li>思想建设</li><li>新鲜事</li><li>友情链接（学校网站、好用的工具）</li><li>学校风光</li><li>设置一个点歌的小插件，最好能听一些付费的歌曲。</li><li>百度搜索功能</li><li>时间显示功能</li><li>计算综测分</li><li>点名统计</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;网站开发基础&quot;&gt;&lt;a href=&quot;#网站开发基础&quot; class=&quot;headerlink&quot; title=&quot;网站开发基础&quot;&gt;&lt;/a&gt;网站开发基础&lt;/h2&gt;&lt;h4 id=&quot;基础知识&quot;&gt;&lt;a href=&quot;#基础知识&quot; class=&quot;headerlink&quot; title=&quot;基</summary>
+      
+    
+    
+    
+    <category term="网站开发" scheme="https://www.dp2002.top/categories/%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="计算机专业" scheme="https://www.dp2002.top/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A/"/>
+    
+    <category term="网站必备" scheme="https://www.dp2002.top/tags/%E7%BD%91%E7%AB%99%E5%BF%85%E5%A4%87/"/>
+    
+    <category term="搭建个人网站" scheme="https://www.dp2002.top/tags/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/"/>
     
   </entry>
   
