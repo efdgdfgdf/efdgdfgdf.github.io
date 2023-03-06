@@ -1708,11 +1708,18 @@ input#pic-link {
 }
 
 /* 一级菜单居中 */
-#nav .menus_items {
+/* #nav .menus_items {
   position: absolute !important;
   width: fit-content !important;
   left: 50% !important;
   transform: translateX(-50%) !important;
+} */
+#nav .menus_items {
+  display: inline;
+  position: absolute!important;
+  width: max-content!important;
+  left: 50%!important;
+  transform: translateX(-50%)!important;
 }
 /* 子菜单横向展示 */
 #nav .menus_items .menus_item:hover .menus_item_child {
@@ -1936,4 +1943,8 @@ center#name-container {
   margin-top: 10px;
   width: 100%;
   text-align: center
+}
+
+div#menus {
+  font-weight: 700!important;
 }
