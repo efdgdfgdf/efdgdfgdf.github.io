@@ -7411,14 +7411,14 @@ blockquote.pullquote.right {
 
 .author-content-item.comic-content {
   width: 39%;
-  background: url(https://wework.qpic.cn/wwpic/983351_-tkZaMJOQS-sn6R_1655832294/0) no-repeat top;
+  background: url(https://tuchuang.voooe.cn/images/2023/03/05/image-5.webp) no-repeat top;
   background-size: cover;
   min-height: 300px;
   overflow: hidden;
-  color: #29323c;
+  color: #fff;
 }
 .author-content-item.comic-content::after {
-  box-shadow: 0 -48px 203px 11px #fbe9b8 inset;
+  /* box-shadow: 0 -48px 203px 11px #a7bfe8 inset; */
   position: absolute;
   content: "";
   width: 100%;

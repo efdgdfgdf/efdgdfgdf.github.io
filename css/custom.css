@@ -1746,6 +1746,32 @@ input#pic-link {
   background: linear-gradient(60deg,#ffd7e4 0,#c8f1ff 93%);
   border-radius: 15px;
 }
+[data-theme="dark"] #sidebar #sidebar-menus {
+  background: linear-gradient(135deg,#536976,#292e49);
+  border-radius: 15px;
+}
+
+/* 相册图片适配三个 */
+.gallery-group {
+  width: calc(33% - 8px)!important
+}
+
+@media screen and (max-width: 1000px) {
+  .gallery-group {
+      width:calc(50% - 8px)!important
+  }
+}
+
+/* 右下角放大 */
+#rightside>div>a,#rightside>div>button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  font-size: 18px;
+  border-radius: 6px
+}
 
 /* 导航栏白天黑夜切换按钮 */
 .nav-button {
