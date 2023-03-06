@@ -1890,9 +1890,7 @@ div#menus {
   position: relative;
   padding: 10px 30px; /*如果文字间隔不合理可以微调修改，第二个是水平方向的padding，第一个是垂直的*/
 }
-#nav{
-  padding: 0 20px;
-}
+
 
 /* 修复滚动显示标题居中 */
 center#name-container {
