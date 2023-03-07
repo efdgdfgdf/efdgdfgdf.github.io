@@ -450,3 +450,12 @@ function totraveling() {
       window.open("https://imyshare.com/")
   }, "5000")
 }
+
+function listenToPageInputPress() {
+  var e = document.getElementById("toPageText");
+  e && e.addEventListener("keydown", function(e) {
+      13 === e.keyCode && (anzhiyu.toPage(),
+      e = document.getElementById("toPageButton").href,
+      pjax.loadUrl(e))
+  })
+}

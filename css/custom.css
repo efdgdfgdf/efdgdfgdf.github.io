@@ -1945,6 +1945,8 @@ center#name-container {
   text-align: center
 }
 
-div#menus {
-  font-weight: 700!important;
+
+/* 导航栏字体 */
+div.menus_items {
+  font-weight: 600!important;
 }
