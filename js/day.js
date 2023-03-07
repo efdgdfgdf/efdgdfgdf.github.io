@@ -59,6 +59,12 @@ if (m == 3 && dd == 8) {//妇女节
         sessionStorage.setItem("isPopupWindow", "1");
     }
 }
+if (m == 3 && dd == 12) {//植树节
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("爱护环境从你我做起，一起来植树呀！🌲🍃");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
 l = ["非常抱歉，因为不可控原因，博客将于明天停止运营！", "好消息，日本没了！", "美国垮了，原因竟然是川普！", "微软垮了！", "你的电脑已经过载，建议立即关机！", "你知道吗？站长很喜欢你哦！", "一分钟有61秒哦", "你喜欢的人跟别人跑了！"]
 if (m == 4 && dd == 1) {//愚人节，随机谎话
     if (sessionStorage.getItem("isPopupWindow") != "1") {

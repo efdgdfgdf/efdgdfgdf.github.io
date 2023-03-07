@@ -17,6 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>找工作，投简历</title>
+    <link href="https://www.dp2002.top/posts/1342/"/>
+    <id>https://www.dp2002.top/posts/1342/</id>
+    <published>2023-01-29T02:45:00.000Z</published>
+    <updated>2023-02-02T13:09:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="投简历"><a href="#投简历" class="headerlink" title="投简历"></a>投简历</h1><h2 id="海投"><a href="#海投" class="headerlink" title="海投"></a>海投</h2><h2 id="公司是否靠谱"><a href="#公司是否靠谱" class="headerlink" title="公司是否靠谱"></a>公司是否靠谱</h2><ol><li>百度百科</li><li>爱企查</li><li>招聘软件上面看面试评价</li><li>自己来感受（第六感🤪）</li></ol><h1 id="面试技巧"><a href="#面试技巧" class="headerlink" title="面试技巧"></a>面试技巧</h1><h2 id="自我推销"><a href="#自我推销" class="headerlink" title="自我推销"></a>自我推销</h2><p>你的薪资期望有点高，可以商量吗？</p><p>最好不要说可以或不可以。首先，可以介绍自己是综合多方面的考量来到贵公司的，贵公司很好（巴拉巴拉），我很中意，薪资方面可以适当减低的。</p><h2 id="真诚和礼貌是必杀技"><a href="#真诚和礼貌是必杀技" class="headerlink" title="真诚和礼貌是必杀技"></a>真诚和礼貌是必杀技</h2><p>不要说什么丧气话，也不要说以后要跳槽或者考公考编，这样会让HR认为培养你不是为了公司的。</p><h1 id="当心坠坑"><a href="#当心坠坑" class="headerlink" title="当心坠坑"></a>当心坠坑</h1><ol><li>薪资诱人，接受零基础</li><li>面试邀约公司与实际地点公司不一样，介绍也不实际</li><li>还没工作，就先要给钱（培训费、违约金等等）</li><li>抵扣学位证或身份证进行贷款</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;投简历&quot;&gt;&lt;a href=&quot;#投简历&quot; class=&quot;headerlink&quot; title=&quot;投简历&quot;&gt;&lt;/a&gt;投简历&lt;/h1&gt;&lt;h2 id=&quot;海投&quot;&gt;&lt;a href=&quot;#海投&quot; class=&quot;headerlink&quot; title=&quot;海投&quot;&gt;&lt;/a&gt;海投&lt;/h2&gt;&lt;h</summary>
+      
+    
+    
+    
+    <category term="实习" scheme="https://www.dp2002.top/categories/%E5%AE%9E%E4%B9%A0/"/>
+    
+    
+    <category term="实习工作" scheme="https://www.dp2002.top/tags/%E5%AE%9E%E4%B9%A0%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="随笔小记" scheme="https://www.dp2002.top/tags/%E9%9A%8F%E7%AC%94%E5%B0%8F%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>个人网站开发</title>
     <link href="https://www.dp2002.top/posts/1231/"/>
     <id>https://www.dp2002.top/posts/1231/</id>
@@ -41,32 +67,6 @@
     <category term="网站必备" scheme="https://www.dp2002.top/tags/%E7%BD%91%E7%AB%99%E5%BF%85%E5%A4%87/"/>
     
     <category term="搭建个人网站" scheme="https://www.dp2002.top/tags/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>系统设计入门</title>
-    <link href="https://www.dp2002.top/posts/0000/"/>
-    <id>https://www.dp2002.top/posts/0000/</id>
-    <published>2023-01-29T02:45:00.000Z</published>
-    <updated>2023-02-02T13:09:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="系统设计"><a href="#系统设计" class="headerlink" title="系统设计"></a>系统设计</h2><h3 id="Load-Balancing-负载均衡"><a href="#Load-Balancing-负载均衡" class="headerlink" title="Load Balancing  负载均衡"></a>Load Balancing  负载均衡</h3><p>用来保护Web server，把请求打到应该打到的服务上（现在大厂，网关+RPC）</p><p>当用户登录某一网页时，浏览器通过DNS服务器域名解析后拿到的IP可能是某个Load Balancer的IP地址， 而不是web server的IP地址。用户发送的请求通过Load Balancer 均匀地分发给web server进行处理。</p><p>常见算法：比如round robin（轮询调度）, least connection（最小连接数法）, hashing（哈希散列）等。。。。 </p><p>High Scalability  （高扩展） ：扩容，Load Balancer下添加更多的web server，来服务更多的用户。</p><p>High Availability （高可用）：Load Balancer持续监听每台web server的状态是否OK，确保将用户请求发给状态OK的web server，挂机的web server就拜拜了，保证服务不中断。</p><p>有小伙伴还会问那Load Balancer也挂掉了呢？</p><p>那Load Balancer肯定也有备份的啦，一个 Load balancer 挂掉，或者是 BGP 发布取消，备份的 Load balancer可以马上接管流量，继续进行响应。</p><p><img src="https://img1.imgtp.com/2023/02/03/5mJLtkQD.png"></p><h3 id="Database-Design-数据库设计"><a href="#Database-Design-数据库设计" class="headerlink" title="Database Design  数据库设计"></a>Database Design  数据库设计</h3><p>一个是设计data model数据模型</p><p>另一个是数据库的选型</p><p>ps：两者互相关联，因为数据库选型的一个重要参数就是数据模型</p><p>eg :  YouTube de metadata  –&gt; mysql、pg</p><p>电商3网站的产品目录，什么鬼东西都有 –&gt; NoSQL (Cassandra. HBase. MongoDB</p><p>等)</p><p>关系型数据库误区，说关系型数据库不能Scalability，大规模化存储数据，听着有点怪怪的，我们学习数据库都有接触到分库分表、docker &amp;&amp; K8s承载数据库集群，现在大厂的还有云数据库等等。。。</p><p>up提到YouTube的分布式MySQL方案（Vitess）倒是不错，可以看看。</p><p>关系型数据库都需要 data partitioning（数据分区、分片） 的方案，都需要选择 partitioning key（设计构造好分区键值）</p><h3 id="Caching-存储中间件（Memcache、Redis）"><a href="#Caching-存储中间件（Memcache、Redis）" class="headerlink" title="Caching 存储中间件（Memcache、Redis）"></a>Caching 存储中间件（Memcache、Redis）</h3><p>memcache是一套分布式的高速缓存系统</p><h3 id="CDN（Content-Delivery-Network内容分发网络）"><a href="#CDN（Content-Delivery-Network内容分发网络）" class="headerlink" title="CDN（Content Delivery Network内容分发网络）"></a>CDN（Content Delivery Network内容分发网络）</h3><p><img src="https://img1.imgtp.com/2023/02/03/4VQPAi5E.png" alt="image-20230118184031266"></p><h3 id="Asynchronous-processing-异步处理"><a href="#Asynchronous-processing-异步处理" class="headerlink" title="Asynchronous processing 异步处理"></a>Asynchronous processing 异步处理</h3><p>先来说说同步处理 (synchronous processing)，如果一个任务是同步处理，那调用者必须等到任务结束，才能继续后面的工作。比如，</p><p>如果一个任务是异步执行的，那么任务的调用者，不用等到任务结束。</p><p>常规解决方案：解耦（MQ）</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;系统设计&quot;&gt;&lt;a href=&quot;#系统设计&quot; class=&quot;headerlink&quot; title=&quot;系统设计&quot;&gt;&lt;/a&gt;系统设计&lt;/h2&gt;&lt;h3 id=&quot;Load-Balancing-负载均衡&quot;&gt;&lt;a href=&quot;#Load-Balancing-负载均衡&quot; class</summary>
-      
-    
-    
-    
-    <category term="系统开发" scheme="https://www.dp2002.top/categories/%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/"/>
-    
-    
-    <category term="计算机专业" scheme="https://www.dp2002.top/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A/"/>
-    
-    <category term="系统设计优化" scheme="https://www.dp2002.top/tags/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E4%BC%98%E5%8C%96/"/>
     
   </entry>
   
@@ -103,32 +103,6 @@
   </entry>
   
   <entry>
-    <title>找工作，投简历</title>
-    <link href="https://www.dp2002.top/posts/1342/"/>
-    <id>https://www.dp2002.top/posts/1342/</id>
-    <published>2023-01-29T02:45:00.000Z</published>
-    <updated>2023-02-02T13:09:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="投简历"><a href="#投简历" class="headerlink" title="投简历"></a>投简历</h1><h2 id="海投"><a href="#海投" class="headerlink" title="海投"></a>海投</h2><h2 id="公司是否靠谱"><a href="#公司是否靠谱" class="headerlink" title="公司是否靠谱"></a>公司是否靠谱</h2><ol><li>百度百科</li><li>爱企查</li><li>招聘软件上面看面试评价</li><li>自己来感受（第六感🤪）</li></ol><h1 id="面试技巧"><a href="#面试技巧" class="headerlink" title="面试技巧"></a>面试技巧</h1><h2 id="自我推销"><a href="#自我推销" class="headerlink" title="自我推销"></a>自我推销</h2><p>你的薪资期望有点高，可以商量吗？</p><p>最好不要说可以或不可以。首先，可以介绍自己是综合多方面的考量来到贵公司的，贵公司很好（巴拉巴拉），我很中意，薪资方面可以适当减低的。</p><h2 id="真诚和礼貌是必杀技"><a href="#真诚和礼貌是必杀技" class="headerlink" title="真诚和礼貌是必杀技"></a>真诚和礼貌是必杀技</h2><p>不要说什么丧气话，也不要说以后要跳槽或者考公考编，这样会让HR认为培养你不是为了公司的。</p><h1 id="当心坠坑"><a href="#当心坠坑" class="headerlink" title="当心坠坑"></a>当心坠坑</h1><ol><li>薪资诱人，接受零基础</li><li>面试邀约公司与实际地点公司不一样，介绍也不实际</li><li>还没工作，就先要给钱（培训费、违约金等等）</li><li>抵扣学位证或身份证进行贷款</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;投简历&quot;&gt;&lt;a href=&quot;#投简历&quot; class=&quot;headerlink&quot; title=&quot;投简历&quot;&gt;&lt;/a&gt;投简历&lt;/h1&gt;&lt;h2 id=&quot;海投&quot;&gt;&lt;a href=&quot;#海投&quot; class=&quot;headerlink&quot; title=&quot;海投&quot;&gt;&lt;/a&gt;海投&lt;/h2&gt;&lt;h</summary>
-      
-    
-    
-    
-    <category term="实习" scheme="https://www.dp2002.top/categories/%E5%AE%9E%E4%B9%A0/"/>
-    
-    
-    <category term="实习工作" scheme="https://www.dp2002.top/tags/%E5%AE%9E%E4%B9%A0%E5%B7%A5%E4%BD%9C/"/>
-    
-    <category term="随笔小记" scheme="https://www.dp2002.top/tags/%E9%9A%8F%E7%AC%94%E5%B0%8F%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
     <title>计算机网络简明教程</title>
     <link href="https://www.dp2002.top/posts/2892/"/>
     <id>https://www.dp2002.top/posts/2892/</id>
@@ -156,6 +130,32 @@
     <category term="TCP/IP" scheme="https://www.dp2002.top/tags/TCP-IP/"/>
     
     <category term="HTTP" scheme="https://www.dp2002.top/tags/HTTP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>系统设计入门</title>
+    <link href="https://www.dp2002.top/posts/0000/"/>
+    <id>https://www.dp2002.top/posts/0000/</id>
+    <published>2023-01-29T02:45:00.000Z</published>
+    <updated>2023-02-02T13:09:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="系统设计"><a href="#系统设计" class="headerlink" title="系统设计"></a>系统设计</h2><h3 id="Load-Balancing-负载均衡"><a href="#Load-Balancing-负载均衡" class="headerlink" title="Load Balancing  负载均衡"></a>Load Balancing  负载均衡</h3><p>用来保护Web server，把请求打到应该打到的服务上（现在大厂，网关+RPC）</p><p>当用户登录某一网页时，浏览器通过DNS服务器域名解析后拿到的IP可能是某个Load Balancer的IP地址， 而不是web server的IP地址。用户发送的请求通过Load Balancer 均匀地分发给web server进行处理。</p><p>常见算法：比如round robin（轮询调度）, least connection（最小连接数法）, hashing（哈希散列）等。。。。 </p><p>High Scalability  （高扩展） ：扩容，Load Balancer下添加更多的web server，来服务更多的用户。</p><p>High Availability （高可用）：Load Balancer持续监听每台web server的状态是否OK，确保将用户请求发给状态OK的web server，挂机的web server就拜拜了，保证服务不中断。</p><p>有小伙伴还会问那Load Balancer也挂掉了呢？</p><p>那Load Balancer肯定也有备份的啦，一个 Load balancer 挂掉，或者是 BGP 发布取消，备份的 Load balancer可以马上接管流量，继续进行响应。</p><p><img src="https://img1.imgtp.com/2023/02/03/5mJLtkQD.png"></p><h3 id="Database-Design-数据库设计"><a href="#Database-Design-数据库设计" class="headerlink" title="Database Design  数据库设计"></a>Database Design  数据库设计</h3><p>一个是设计data model数据模型</p><p>另一个是数据库的选型</p><p>ps：两者互相关联，因为数据库选型的一个重要参数就是数据模型</p><p>eg :  YouTube de metadata  –&gt; mysql、pg</p><p>电商3网站的产品目录，什么鬼东西都有 –&gt; NoSQL (Cassandra. HBase. MongoDB</p><p>等)</p><p>关系型数据库误区，说关系型数据库不能Scalability，大规模化存储数据，听着有点怪怪的，我们学习数据库都有接触到分库分表、docker &amp;&amp; K8s承载数据库集群，现在大厂的还有云数据库等等。。。</p><p>up提到YouTube的分布式MySQL方案（Vitess）倒是不错，可以看看。</p><p>关系型数据库都需要 data partitioning（数据分区、分片） 的方案，都需要选择 partitioning key（设计构造好分区键值）</p><h3 id="Caching-存储中间件（Memcache、Redis）"><a href="#Caching-存储中间件（Memcache、Redis）" class="headerlink" title="Caching 存储中间件（Memcache、Redis）"></a>Caching 存储中间件（Memcache、Redis）</h3><p>memcache是一套分布式的高速缓存系统</p><h3 id="CDN（Content-Delivery-Network内容分发网络）"><a href="#CDN（Content-Delivery-Network内容分发网络）" class="headerlink" title="CDN（Content Delivery Network内容分发网络）"></a>CDN（Content Delivery Network内容分发网络）</h3><p><img src="https://img1.imgtp.com/2023/02/03/4VQPAi5E.png" alt="image-20230118184031266"></p><h3 id="Asynchronous-processing-异步处理"><a href="#Asynchronous-processing-异步处理" class="headerlink" title="Asynchronous processing 异步处理"></a>Asynchronous processing 异步处理</h3><p>先来说说同步处理 (synchronous processing)，如果一个任务是同步处理，那调用者必须等到任务结束，才能继续后面的工作。比如，</p><p>如果一个任务是异步执行的，那么任务的调用者，不用等到任务结束。</p><p>常规解决方案：解耦（MQ）</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;系统设计&quot;&gt;&lt;a href=&quot;#系统设计&quot; class=&quot;headerlink&quot; title=&quot;系统设计&quot;&gt;&lt;/a&gt;系统设计&lt;/h2&gt;&lt;h3 id=&quot;Load-Balancing-负载均衡&quot;&gt;&lt;a href=&quot;#Load-Balancing-负载均衡&quot; class</summary>
+      
+    
+    
+    
+    <category term="系统开发" scheme="https://www.dp2002.top/categories/%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="计算机专业" scheme="https://www.dp2002.top/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A/"/>
+    
+    <category term="系统设计优化" scheme="https://www.dp2002.top/tags/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E4%BC%98%E5%8C%96/"/>
     
   </entry>
   
