@@ -6660,15 +6660,15 @@ blockquote.pullquote.right {
   color: var(--font-color);
 }
 #gitcalendar {
-    margin: 0 auto;
-    border-radius: 24px;
-    background: var(--anzhiyu-card-bg);
-    border: var(--style-border-always);
-    box-shadow: var(--anzhiyu-shadow-border);
-    position: relative;
-    padding: 1rem 2rem;
-    overflow: hidden;
-  }
+  margin: 0 auto;
+  border-radius: 24px;
+  background: var(--anzhiyu-card-bg);
+  border: var(--style-border-always);
+  box-shadow: var(--anzhiyu-shadow-border);
+  position: relative;
+  padding: 1rem 2rem;
+  overflow: hidden;
+}
   
 #page:has(#about-page) {
   border: 0;
@@ -7563,6 +7563,35 @@ blockquote.pullquote.right {
   margin-left: -0.25rem;
   margin-right: -0.25rem;
 }
+/* 赞赏名单单行显示个数 */
+.author-content-item.single.reward .reward-list-all .reward-list-item {
+  padding: 1rem;
+  border-radius: 12px;
+  border: var(--style-border-always);
+  width: calc((100% / 4) - 0.5rem);
+  margin: 0rem 0.25rem 0.5rem 0.25rem;
+  box-shadow: var(--heo-shadow-border);
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+  .author-content-item.single.reward .reward-list-all .reward-list-item {
+    width: calc((100% / 4) - 0.5rem);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .author-content-item.single.reward .reward-list-all .reward-list-item {
+    width: calc((100% / 2) - 0.5rem);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .author-content-item.single.reward .reward-list-all .reward-list-item {
+    width: 100%;
+  }
+}
 
 .reward-list-item {
   padding: 1rem;
@@ -7603,8 +7632,6 @@ blockquote.pullquote.right {
   white-space: nowrap;
 }
 
-
-
 #about-page .author-tag {
   transform: translate(0, -4px);
   padding: 1px 8px;
@@ -7618,30 +7645,110 @@ blockquote.pullquote.right {
   animation: 6s ease-in-out 0s infinite normal none running floating;
 }
 
+#about-page .author-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 16px 0;
+}
+
 #about-page .author-tag-left {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-end
 }
 
 #about-page .author-tag-right {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-start
 }
 
 @media screen and (max-width: 768px) {
   #about-page .author-tag-left,#about-page .author-tag-right {
-    display: none;
+      display:none
   }
 }
 
-#about-page .author-tag-left .author-tag:first-child, #about-page .author-tag-left .author-tag:last-child {
-  margin-right: -16px;
+#about-page .author-tag-left .author-tag:first-child,#about-page .author-tag-left .author-tag:last-child {
+  margin-right: -16px
 }
 
-#about-page .author-tag-right .author-tag:first-child, #about-page .author-tag-right .author-tag:last-child {
-  margin-left: -16px;
+#about-page .author-tag-right .author-tag:first-child,#about-page .author-tag-right .author-tag:last-child {
+  margin-left: -16px
+}
+
+#about-page .author-tag {
+  transform: translate(0,-4px);
+  padding: 1px 8px;
+  background: var(--heo-card-bg);
+  border: var(--style-border-always);
+  border-radius: 40px;
+  margin-top: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  box-shadow: var(--heo-shadow-lightblack);
+  animation: 6s ease-in-out 0s infinite normal none running floating
+}
+
+#about-page .author-tag:nth-child(1) {
+  animation-delay: 0s
+}
+
+#about-page .author-tag:nth-child(2) {
+  animation-delay: .6s
+}
+
+#about-page .author-tag:nth-child(3) {
+  animation-delay: 1.2s
+}
+
+#about-page .author-tag:nth-child(4) {
+  animation-delay: 1.8s
+}
+
+#about-page .author-img {
+  margin: 0 30px;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  position: relative;
+  background: #edf0f7;
+}
+
+#about-page .author-img img {
+  max-width: 100%;
+  border-radius: 200px
+}
+
+#about-page .author-img::before {
+  content: '';
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  -ms-transition: 1s;
+  transition: 1s;
+  width: 33px;
+  height: 33px;
+  background: #6bdf8f;
+  position: absolute;
+  border-radius: 50%;
+  border: 6px solid var(--heo-background);
+  bottom: 0;
+  right: 10px;
+  z-index: 2
+}
+
+@media screen and (max-width: 768px) {
+  #about-page .author-img {
+      width:180px;
+      height: 180px
+  }
+
+  #about-page .author-img::before {
+      bottom: 0;
+      right: 10px
+  }
 }
 
 .about-reward {

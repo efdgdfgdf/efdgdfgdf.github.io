@@ -155,13 +155,13 @@
 }
 @keyframes huxi_dark {
   0% {
-    box-shadow: 0px 0px 1px 1px #39c5bb;
+    box-shadow: 0px 0px 1px 1px #f7f0ac;
   }
   50% {
-    box-shadow: 0px 0px 5px 5px #39c5bb;
+    box-shadow: 0px 0px 5px 5px #acf7f0;
   }
   100% {
-    box-shadow: 0px 0px 1px 1px #39c5bb;
+    box-shadow: 0px 0px 1px 1px #f0acf7;
   }
 }
 
@@ -407,25 +407,24 @@
   display: inline-block;
   width: 18.4%;
   margin-right: 14px;
-  margin-bottom: 6px;
+  margin-bottom: 6px
 }
 
 .ft-item-2 .ft-img-group .img-group-item a {
   display: inline-block;
   width: 100%;
-  height: 100%;
-  /* cursor: pointer !important; */
+  height: 100%
 }
 
 .ft-item-2 .ft-img-group .img-group-item a img {
   width: 100%;
   max-height: 80px;
-  /* 圆角 */
-  border-radius: 10px;
+  border-radius: 10px
 }
-/* 头像悬浮颜色框 */
+
 .ft-item-2 .ft-img-group .img-group-item a img:hover {
-  border: 2px solid #3f93c9;
+  scale: 1.1;
+  transition: all .3s ease-in-out
 }
 
 @media screen and (max-width: 768px) {
@@ -1446,7 +1445,7 @@ h6::before {
   --anzhiyu-pink: #ff7c7c;
   --anzhiyu-green: #57bd6a;
   --anzhiyu-fontcolor: #363636;
-  --anzhiyu-background: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);
+  --anzhiyu-background: linear-gradient(135deg,#f7f0ac 0%,#acf7f0 40%,#f0acf7 60%);
   --anzhiyu-reverse: #000;
   --anzhiyu-maskbg: rgba(255, 255, 255, 0.6);
   --anzhiyu-maskbgdeep: rgba(255, 255, 255, 0.85);
@@ -1953,3 +1952,78 @@ div.menus_items {
 
 /* MAC黑色代码块优化 */
 #article-container figure.highlight,#article-container pre{color:#f8f8f2;background:#696969}#article-container figure.highlight .highlight-tools{background:#3f3f3f;color:#fff}#article-container figure.highlight .gutter pre{color:#d3d3d3;background:grey}#article-container figure.highlight figcaption a{color:#a9a9a9!important}
+
+/* 波浪css */
+.main-hero-waves-area {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -11px;
+  z-index: 5;
+}
+.waves-area .waves-svg {
+  width: 100%;
+  height: 5rem;
+}
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+  fill: #f7f9febd;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+  fill: #f7f9fe82;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+  fill: #f7f9fe36;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+  fill: #f7f9fe;
+}
+/* 黑色模式背景 */
+[data-theme="dark"] .parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+  fill: #18171dc8;
+}
+[data-theme="dark"] .parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+  fill: #18171d80;
+}
+[data-theme="dark"] .parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+  fill: #18171d3e;
+}
+[data-theme="dark"] .parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+  fill: #18171d;
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves-area .waves-svg {
+    height: 40px;
+    min-height: 40px;
+  }
+}
