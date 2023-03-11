@@ -544,9 +544,58 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: ZhuZiAYuanJWD;
+  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/ZhuZiAWan.woff2);
+  font-display: swap;
+  font-weight: lighter;
+}
+
+
+@font-face {
+  font-family: HYTangMeiRen55W;
+  src: url(../font/HYTangMeiRen55W.woff2);
+  font-display: swap;
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 霞鹜文楷;
+  src: url(../font/霞鹜文楷.woff2);
+  font-display: swap;
+  font-weight: lighter;
+}
+
 body,
 .gitcalendar {
   font-family: tzy !important;
+}
+div#menus {
+  font-family: "tzy";
+}
+h1#site-title {
+  font-family: HYTangMeiRen55W;
+  font-size: 3em !important;
+}
+
+a.article-title,
+a.blog-slider__title,
+a.categoryBar-list-link,
+h1.post-title {
+  font-family: HYTangMeiRen55W;
+}
+
+/* 时间轴生肖icon */
+svg.icon {
+  /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */
+  width: 1em;
+  height: 1em;
+  /* width和height定义图标的默认宽度和高度*/
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+  height:50px;
+  width:50px;
 }
 
 
@@ -1395,8 +1444,6 @@ h6::before {
   content: "⊙ ";
 }
 
-
-
 /* 朋友圈 颜色 */
 :root {
   --anzhiyu-theme-op: #4259ef23;
@@ -1445,7 +1492,7 @@ h6::before {
   --anzhiyu-pink: #ff7c7c;
   --anzhiyu-green: #57bd6a;
   --anzhiyu-fontcolor: #363636;
-  --anzhiyu-background: linear-gradient(135deg,#f7f0ac 0%,#acf7f0 40%,#f0acf7 60%);
+  --anzhiyu-background: linear-gradient(135deg,#f7f0ac 0%,#acf7f0 40%,#fbc7d4 60%);
   --anzhiyu-reverse: #000;
   --anzhiyu-maskbg: rgba(255, 255, 255, 0.6);
   --anzhiyu-maskbgdeep: rgba(255, 255, 255, 0.85);
@@ -2026,4 +2073,16 @@ div.menus_items {
     height: 40px;
     min-height: 40px;
   }
+}
+
+/* 个人信息卡片头像 转动 */
+.avatar-img img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: filter 1s cubic-bezier(.38,.21,.94,.1) .2s,-webkit-transform 1s;
+  -moz-transition: filter 1s cubic-bezier(.38,.21,.94,.1) .2s,-moz-transform 1s;
+  -o-transition: filter 1s cubic-bezier(.38,.21,.94,.1) .2s,-o-transform 1s;
+  -ms-transition: filter 1s cubic-bezier(.38,.21,.94,.1) .2s,-ms-transform 1s;
+  transition: filter 1s cubic-bezier(.38,.21,.94,.1) .2s,transform 1s;
+  object-fit: cover;
 }
