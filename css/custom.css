@@ -45,7 +45,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #00a8ff;
+  background-color: #2f80ed;
   background-image: -webkit-linear-gradient(
     45deg,
     rgba(255, 255, 255, 0.4) 25%,
@@ -65,7 +65,7 @@
 
 ::-moz-selection {
   color: #fff;
-  background-color: #00a8ff;
+  background-color: #2f80ed;
 }
 
 /* 滚动条样式   end  */
@@ -74,7 +74,7 @@
 
 
 /* 侧边栏个人信息卡片动态渐变色 */
-#aside-content > .card-widget.card-info {
+/* #aside-content > .card-widget.card-info {
     background: linear-gradient(
       -45deg,
       #e8d8b9,
@@ -123,7 +123,7 @@
       background-position: 0% 50%;
     }
   }
-  
+   */
   /* 黑夜模式适配 */
   [data-theme="dark"] #aside-content > .card-widget.card-info {
     background: #191919ee;
@@ -131,7 +131,7 @@
   
   /* 个人信息Follow me按钮 */
   #aside-content > .card-widget.card-info > #card-info-btn {
-    background-color: #3eb8be;
+    background-color: #26a0da;
     border-radius: 25px;
   }
 
@@ -646,6 +646,15 @@ div.post-copyright {
   backdrop-filter: var(--backdrop-filter);
   border-radius: 18px;
   border: var(--border-style);
+}
+
+#aside-content .card-widget.card-clock {
+  background: url(https://tuchuang.voooe.cn/images/2023/03/14/646090_1496806136_7269.jpg);
+}
+
+
+#aside-content .card-widget.card-announcement {
+  background: url(https://tuchuang.voooe.cn/images/2023/03/14/20210518055514_444c9_WH_700x1000px.png);
 }
 
 /* 文章页、归档页、普通页面 */
@@ -1402,7 +1411,7 @@ h6::before {
 
 /* 侧边卡片栏宽度 */
 .aside-content {
-  max-width: 330px;
+  max-width: 325px;
   min-width: 300px;
 }
 
@@ -2119,4 +2128,18 @@ div.menus_items {
       transform: translate(0, -105%);
       opacity: 1;
   }
+}
+
+/* 个人信息卡片背景图 */
+[data-theme="light"] #aside-content > .card-widget.card-info {
+  background-image: url(https://tuchuang.voooe.cn/images/2023/03/14/springBg.png);
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: 100%;
+}
+[data-theme="dark"] #aside-content > .card-widget.card-info {
+  background-image: url(https://sourcebucket.s3.ladydaily.com/img/aurora.webp);
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: 100%;
 }
